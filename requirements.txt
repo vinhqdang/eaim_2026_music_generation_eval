@@ -29,6 +29,9 @@ torchvision>=0.15.0
 # FAD computation
 frechet-audio-distance>=1.0.0
 
+# VGGish for FAD
+torchvggish>=0.0.1
+
 # Data handling
 pandas>=2.0.0
 numpy>=1.24.0
