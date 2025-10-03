@@ -280,6 +280,219 @@ python metrics/audio/structure.py music1.wav music2.wav
 - `avg_segment_homogeneity`: Consistency within segments (0-1)
 - `segment_boundary_times`: Timestamps of segment boundaries
 
+## Comprehensive Evaluation Scripts
+
+### Audio Evaluation
+
+Evaluate all audio generations with comprehensive metrics in parallel:
+
+```bash
+# Activate conda environment
+conda activate py310
+
+# Basic evaluation
+python eval/audio/evaluate_audio.py \
+  --wav_dir runs/artifacts/wav \
+  --output runs/logs/audio_metrics.parquet
+
+# With reference audio for FAD computation
+python eval/audio/evaluate_audio.py \
+  --wav_dir runs/artifacts/wav \
+  --reference_dir data/reference_audio \
+  --output runs/logs/audio_metrics.parquet
+
+# With text prompts for CLAP score
+python eval/audio/evaluate_audio.py \
+  --wav_dir runs/artifacts/wav \
+  --metadata data/audio_metadata.csv \
+  --output runs/logs/audio_metrics.parquet
+
+# Incremental evaluation (skip already processed files)
+python eval/audio/evaluate_audio.py \
+  --wav_dir runs/artifacts/wav \
+  --output runs/logs/audio_metrics.parquet \
+  --incremental
+
+# Force recomputation of all files
+python eval/audio/evaluate_audio.py \
+  --wav_dir runs/artifacts/wav \
+  --output runs/logs/audio_metrics.parquet \
+  --force
+```
+
+**Features:**
+- Computes FAD (VGGish + CLAP), CLAPScore, tempo, key, structure metrics
+- Parallel processing with multiprocessing
+- Progress bars with tqdm
+- Graceful error handling
+- Incremental updates (resume/skip processed files)
+- Saves results to Parquet format
+- Logs computation time per metric
+
+**Command-line options:**
+- `--wav_dir`: Directory containing WAV files (default: runs/artifacts/wav)
+- `--output`: Output path for metrics parquet (default: runs/logs/audio_metrics.parquet)
+- `--reference_dir`: Optional reference audio directory for FAD
+- `--metadata`: Optional metadata file (CSV/JSON/parquet) with text_prompt column
+- `--pattern`: File pattern for audio files (default: *.wav)
+- `--device`: Device for computation (cuda/cpu, auto-detects if not specified)
+- `--workers`: Number of worker processes (default: CPU count - 1)
+- `--batch_size`: Batch size for processing (default: 8)
+- `--incremental`: Enable incremental evaluation
+- `--force`: Force recomputation of all files
+
+**Metadata file format:**
+CSV/JSON/Parquet file with columns:
+- `file_name`: Audio file name
+- `text_prompt`: Text description for CLAP score (optional)
+
+**Output format:**
+Parquet file with columns:
+- `file_path`, `file_name`: File identification
+- `tempo_*`: Tempo consistency metrics
+- `key_*`: Key stability metrics
+- `structure_*`: Structure detection metrics
+- `clap_*`: CLAP score metrics (if prompts provided)
+- `fad_vggish_score`, `fad_clap_score`: FAD scores (if reference provided)
+- `success`, `error`: Processing status
+- `computation_time`: Time taken per file
+
+### MIDI Evaluation
+
+Evaluate all symbolic music generations with comprehensive metrics:
+
+```bash
+# Activate conda environment
+conda activate py310
+
+# Basic evaluation
+python eval/midi/evaluate_midi.py \
+  --midi_dir runs/artifacts/midi \
+  --output runs/logs/midi_metrics.parquet
+
+# With seed MIDI files for continuation metrics
+python eval/midi/evaluate_midi.py \
+  --midi_dir runs/artifacts/midi \
+  --seed_dir data/midi_seeds \
+  --output runs/logs/midi_metrics.parquet
+
+# With reference corpus for perplexity
+python eval/midi/evaluate_midi.py \
+  --midi_dir runs/artifacts/midi \
+  --reference_corpus data/reference_midi \
+  --output runs/logs/midi_metrics.parquet
+
+# With metadata for seed mappings
+python eval/midi/evaluate_midi.py \
+  --midi_dir runs/artifacts/midi \
+  --metadata data/midi_metadata.csv \
+  --output runs/logs/midi_metrics.parquet
+
+# Incremental evaluation
+python eval/midi/evaluate_midi.py \
+  --midi_dir runs/artifacts/midi \
+  --output runs/logs/midi_metrics.parquet \
+  --incremental
+```
+
+**Features:**
+- Computes pitch-class, voice-leading, rhythm, motif, perplexity metrics
+- Parallel processing with multiprocessing
+- Progress bars with tqdm
+- Graceful error handling
+- Incremental updates (resume/skip processed files)
+- Saves results to Parquet format
+- Logs computation time per metric
+
+**Command-line options:**
+- `--midi_dir`: Directory containing MIDI files (default: runs/artifacts/midi)
+- `--output`: Output path for metrics parquet (default: runs/logs/midi_metrics.parquet)
+- `--seed_dir`: Optional seed MIDI directory for continuation metrics
+- `--reference_corpus`: Optional reference corpus for perplexity
+- `--metadata`: Optional metadata file (CSV/JSON/parquet) with seed_file column
+- `--pattern`: File pattern for MIDI files (default: *.mid)
+- `--device`: Device for computation (cuda/cpu, auto-detects if not specified)
+- `--workers`: Number of worker processes (default: CPU count - 1)
+- `--batch_size`: Batch size for processing (default: 16)
+- `--incremental`: Enable incremental evaluation
+- `--force`: Force recomputation of all files
+
+**Metadata file format:**
+CSV/JSON/Parquet file with columns:
+- `file_name`: MIDI file name
+- `seed_file`: Seed MIDI file name (optional)
+
+**Output format:**
+Parquet file with columns:
+- `file_path`, `file_name`, `has_seed`: File identification
+- `pc_*`: Pitch-class metrics
+- `vl_*`: Voice-leading metrics
+- `rhythm_*`: Rhythm metrics
+- `motif_*`: Motif development metrics
+- `ppl_*`: Perplexity metrics
+- `success`, `error`: Processing status
+- `computation_time`: Time taken per file
+
+### Complete Evaluation Pipeline
+
+Run both audio and MIDI evaluations:
+
+```bash
+# Activate conda environment
+conda activate py310
+
+# Step 1: Evaluate audio
+python eval/audio/evaluate_audio.py \
+  --wav_dir runs/artifacts/wav \
+  --reference_dir data/reference_audio \
+  --metadata data/audio_metadata.csv \
+  --output runs/logs/audio_metrics.parquet \
+  --incremental
+
+# Step 2: Evaluate MIDI
+python eval/midi/evaluate_midi.py \
+  --midi_dir runs/artifacts/midi \
+  --seed_dir data/midi_seeds \
+  --reference_corpus data/reference_midi \
+  --metadata data/midi_metadata.csv \
+  --output runs/logs/midi_metrics.parquet \
+  --incremental
+
+# Step 3: Analyze results (optional)
+python analysis/analyze_metrics.py \
+  --audio_metrics runs/logs/audio_metrics.parquet \
+  --midi_metrics runs/logs/midi_metrics.parquet \
+  --output_dir runs/analysis
+```
+
+### Loading and Analyzing Results
+
+```python
+import pandas as pd
+import numpy as np
+
+# Load audio metrics
+audio_df = pd.read_parquet('runs/logs/audio_metrics.parquet')
+
+# Show summary statistics
+print("Audio Metrics Summary:")
+print(audio_df[['tempo_global_tempo', 'key_key_stability', 'structure_repetition_score']].describe())
+
+# Load MIDI metrics
+midi_df = pd.read_parquet('runs/logs/midi_metrics.parquet')
+
+# Show summary statistics
+print("\nMIDI Metrics Summary:")
+print(midi_df[['pc_pitch_class_entropy', 'rhythm_rhythm_regularity', 'motif_motif_repetition_rate']].describe())
+
+# Filter successful evaluations
+successful_audio = audio_df[audio_df['success']]
+print(f"\nAudio success rate: {len(successful_audio) / len(audio_df):.1%}")
+
+successful_midi = midi_df[midi_df['success']]
+print(f"MIDI success rate: {len(successful_midi) / len(midi_df):.1%}")
+```
+
 ## Batch Processing
 
 All calculators support batch processing for multiple files:
