@@ -1,6 +1,34 @@
 # Music Generation Evaluation Framework
 
-A comprehensive evaluation framework for assessing the quality of AI-generated music using state-of-the-art audio metrics.
+A comprehensive evaluation framework for behavioral assessment of music generation models without human evaluation. Evaluates 4 models across 3 behavioral tasks using 13 automated metrics.
+
+**For EAIM 2026 Workshop** ([https://amaai-lab.github.io/EAIM2026/](https://amaai-lab.github.io/EAIM2026/))
+
+See **[resultv1.md](resultv1.md)** for complete implementation details and documentation.
+
+## Quick Start
+
+```bash
+# 1. Setup environment
+conda create -n py310 python=3.10
+conda activate py310
+pip install -r requirements.txt
+
+# 2. Prepare data
+python prep/build_prompts.py
+python prep/select_midi_seeds.py
+
+# 3. Generate music (audio + symbolic)
+python gen/run_audio.py --model musicgen --tasks t1,t2,t3 --seeds 3
+python gen/run_symbolic.py --model music_transformer --tasks t1,t2,t3 --seeds 3
+
+# 4. Evaluate
+python eval/audio/evaluate_audio.py --wav_dir runs/artifacts/wav --output runs/logs/audio_metrics.parquet
+python eval/midi/evaluate_midi.py --midi_dir runs/artifacts/midi --output runs/logs/midi_metrics.parquet
+
+# 5. Analyze results
+python analysis/aggregate.py
+```
 
 ## Features
 
