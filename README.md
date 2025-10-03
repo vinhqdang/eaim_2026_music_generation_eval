@@ -37,6 +37,81 @@ The framework will automatically use CUDA if available.
 
 ## Usage
 
+### Music Generation
+
+#### Audio Generation (Text-to-Audio)
+
+Generate audio samples using MusicGen or Stable Audio models:
+
+```bash
+# Activate conda environment
+conda activate py310
+
+# Generate with MusicGen for all tasks
+python gen/run_audio.py --model musicgen --tasks t1,t2,t3 --seeds 3
+
+# Generate with Stable Audio for specific task
+python gen/run_audio.py --model stableaudio --tasks t1 --seeds 5
+
+# Resume interrupted generation
+python gen/run_audio.py --model musicgen --tasks t1,t2,t3 --resume
+```
+
+**Key features:**
+- Loads prompts from `data/prompts/prompts_text.json`
+- Supports MusicGen and Stable Audio models
+- Generates 100 prompts × seeds per task
+- Saves WAV files and metadata to `runs/artifacts/`
+- Progress tracking with tqdm
+- Resume functionality for interrupted runs
+- Automatic CUDA detection
+
+**Command-line options:**
+- `--model`: Model to use (musicgen, stableaudio)
+- `--tasks`: Comma-separated tasks (t1,t2,t3)
+- `--seeds`: Number of random seeds per prompt (default: 3)
+- `--prompts`: Path to prompts JSON file
+- `--output-dir`: Output directory (default: runs/artifacts)
+- `--log-dir`: Log directory (default: runs/logs)
+- `--device`: Device to use (cuda/cpu, auto-detects if not specified)
+- `--resume`: Resume from previous run
+
+#### Symbolic Generation (MIDI)
+
+Generate symbolic music using Music Transformer or REMI Transformer:
+
+```bash
+# Generate with Music Transformer for all tasks
+python gen/run_symbolic.py --model music_transformer --tasks t1,t2,t3 --seeds 3
+
+# Generate with REMI Transformer for specific task
+python gen/run_symbolic.py --model remi_transformer --tasks t1 --seeds 5
+
+# Resume interrupted generation
+python gen/run_symbolic.py --model music_transformer --tasks t1,t2,t3 --resume
+```
+
+**Key features:**
+- Loads MIDI seeds from `data/midi_seeds.json`
+- Supports Music Transformer and REMI Transformer models
+- Generates 100 seeds × seeds per task
+- Saves MIDI files and metadata to `runs/artifacts/`
+- Progress tracking with tqdm
+- Resume functionality for interrupted runs
+- Automatic CUDA detection
+
+**Command-line options:**
+- `--model`: Model to use (music_transformer, remi_transformer)
+- `--tasks`: Comma-separated tasks (t1,t2,t3)
+- `--seeds`: Number of random seeds per MIDI seed (default: 3)
+- `--midi-seeds`: Path to MIDI seeds JSON file
+- `--output-dir`: Output directory (default: runs/artifacts)
+- `--log-dir`: Log directory (default: runs/logs)
+- `--device`: Device to use (cuda/cpu, auto-detects if not specified)
+- `--resume`: Resume from previous run
+
+### Audio Metrics
+
 ### 1. FAD (Fréchet Audio Distance)
 
 Calculate FAD between reference and generated audio using CLAP or VGGish embeddings.
