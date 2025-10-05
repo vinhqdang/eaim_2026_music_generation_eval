@@ -1,0 +1,7 @@
+{
+  "model": "StableAudio-Open",
+  "prompt": "ambient electronic music, 90 BPM, atmospheric",
+  "task": "T2_Style",
+  "duration": 10,
+  "note": "Synthetic demonstration (not actual model output)"
+}

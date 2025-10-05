@@ -1,0 +1,8 @@
+{
+  "model": "REMI-Transformer",
+  "seed": "groove_seed_015",
+  "task": "T1_Structure",
+  "duration": 10,
+  "tempo": 120,
+  "note": "Synthetic demonstration (not actual model output)"
+}

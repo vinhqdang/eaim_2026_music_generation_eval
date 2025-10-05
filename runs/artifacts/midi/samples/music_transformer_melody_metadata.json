@@ -1,0 +1,8 @@
+{
+  "model": "MusicTransformer",
+  "seed": "maestro_seed_001",
+  "task": "T1_Structure",
+  "duration": 10,
+  "tempo": 120,
+  "note": "Synthetic demonstration (not actual model output)"
+}
