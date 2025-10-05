@@ -1,0 +1,7 @@
+domain,metric,friedman_chi2,friedman_p,significant
+audio,fad_clap,21.210277657264022,0.0001,True
+audio,clap_score,15.62301440182646,0.0001,True
+audio,structure_f_score,25.885794443636367,0.0001,True
+midi,pitch_class_kl_div,27.561141485994785,0.0001,True
+midi,rhythm_regularity,22.067928674077088,0.0001,True
+midi,perplexity,24.029241582112377,0.0001,True
