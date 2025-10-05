@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_061",
+  "prompt": "house, 62 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",
+  "seed": 1,
+  "genre": "house",
+  "bpm": 62,
+  "device": "cuda"
+}

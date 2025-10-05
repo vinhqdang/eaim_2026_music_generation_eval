@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_011",
+  "prompt": "funk, 111 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+  "seed": 2,
+  "genre": "funk",
+  "bpm": 111,
+  "device": "cuda"
+}

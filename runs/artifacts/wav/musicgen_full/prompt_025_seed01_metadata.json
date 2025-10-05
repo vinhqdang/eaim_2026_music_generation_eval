@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_025",
+  "prompt": "funk, 79 BPM, instrumentation: strings, piano, structure: intro-A-B-A, phaser",
+  "seed": 1,
+  "genre": "funk",
+  "bpm": 79,
+  "device": "cuda"
+}

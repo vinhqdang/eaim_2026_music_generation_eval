@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_082",
+  "prompt": "drum and bass, 146 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, reverb",
+  "seed": 2,
+  "genre": "drum and bass",
+  "bpm": 146,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_078",
+  "prompt": "soul, 103 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, echo",
+  "seed": 2,
+  "genre": "soul",
+  "bpm": 103,
+  "device": "cuda"
+}

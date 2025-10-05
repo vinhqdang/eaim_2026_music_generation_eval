@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_024",
+  "prompt": "rock, 94 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, phaser",
+  "seed": 0,
+  "genre": "rock",
+  "bpm": 94,
+  "device": "cuda"
+}

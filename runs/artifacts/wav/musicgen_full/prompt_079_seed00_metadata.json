@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_079",
+  "prompt": "soul, 142 BPM, instrumentation: strings, piano, structure: intro-A-B-A, clean production",
+  "seed": 0,
+  "genre": "soul",
+  "bpm": 142,
+  "device": "cuda"
+}

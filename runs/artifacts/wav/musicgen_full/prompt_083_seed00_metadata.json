@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_083",
+  "prompt": "pop, 115 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",
+  "seed": 0,
+  "genre": "pop",
+  "bpm": 115,
+  "device": "cuda"
+}

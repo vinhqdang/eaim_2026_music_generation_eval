@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_022",
+  "prompt": "reggae, 175 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, lo-fi texture",
+  "seed": 1,
+  "genre": "reggae",
+  "bpm": 175,
+  "device": "cuda"
+}

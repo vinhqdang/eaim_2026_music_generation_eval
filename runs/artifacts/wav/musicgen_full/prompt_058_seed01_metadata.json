@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_058",
+  "prompt": "pop, 178 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",
+  "seed": 1,
+  "genre": "pop",
+  "bpm": 178,
+  "device": "cuda"
+}

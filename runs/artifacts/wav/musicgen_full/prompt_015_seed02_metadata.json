@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_015",
+  "prompt": "reggae, 136 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, clean production",
+  "seed": 2,
+  "genre": "reggae",
+  "bpm": 136,
+  "device": "cuda"
+}

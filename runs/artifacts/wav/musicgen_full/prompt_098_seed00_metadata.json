@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_098",
+  "prompt": "lo-fi hip-hop, 187 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",
+  "seed": 0,
+  "genre": "lo-fi hip-hop",
+  "bpm": 187,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_014",
+  "prompt": "pop, 142 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, vinyl crackle",
+  "seed": 0,
+  "genre": "pop",
+  "bpm": 142,
+  "device": "cuda"
+}

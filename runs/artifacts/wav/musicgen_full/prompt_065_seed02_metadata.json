@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_065",
+  "prompt": "trap, 117 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, echo",
+  "seed": 2,
+  "genre": "trap",
+  "bpm": 117,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_060",
+  "prompt": "lo-fi hip-hop, 113 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: AABA, 8 bars each, lo-fi texture",
+  "seed": 1,
+  "genre": "lo-fi hip-hop",
+  "bpm": 113,
+  "device": "cuda"
+}

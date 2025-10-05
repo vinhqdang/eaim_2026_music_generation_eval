@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_054",
+  "prompt": "funk, 135 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, tape saturation",
+  "seed": 1,
+  "genre": "funk",
+  "bpm": 135,
+  "device": "cuda"
+}

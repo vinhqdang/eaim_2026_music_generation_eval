@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_028",
+  "prompt": "drum and bass, 111 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",
+  "seed": 0,
+  "genre": "drum and bass",
+  "bpm": 111,
+  "device": "cuda"
+}

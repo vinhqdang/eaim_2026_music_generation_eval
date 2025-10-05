@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_071",
+  "prompt": "funk, 160 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, phaser",
+  "seed": 0,
+  "genre": "funk",
+  "bpm": 160,
+  "device": "cuda"
+}

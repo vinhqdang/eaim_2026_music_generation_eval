@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_052",
+  "prompt": "classical piano, 62 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, clean production",
+  "seed": 1,
+  "genre": "classical piano",
+  "bpm": 62,
+  "device": "cuda"
+}

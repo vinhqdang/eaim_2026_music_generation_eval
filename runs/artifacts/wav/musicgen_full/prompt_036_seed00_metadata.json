@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_036",
+  "prompt": "drum and bass, 73 BPM, instrumentation: saxophone, piano, bass, drums, structure: AABA, 8 bars each, reverb",
+  "seed": 0,
+  "genre": "drum and bass",
+  "bpm": 73,
+  "device": "cuda"
+}

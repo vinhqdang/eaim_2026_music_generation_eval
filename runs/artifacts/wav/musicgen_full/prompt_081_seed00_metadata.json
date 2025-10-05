@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_081",
+  "prompt": "pop, 106 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, chorus",
+  "seed": 0,
+  "genre": "pop",
+  "bpm": 106,
+  "device": "cuda"
+}

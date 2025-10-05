@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_072",
+  "prompt": "lo-fi hip-hop, 131 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, echo",
+  "seed": 2,
+  "genre": "lo-fi hip-hop",
+  "bpm": 131,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_085",
+  "prompt": "classical piano, 112 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, clean production",
+  "seed": 2,
+  "genre": "classical piano",
+  "bpm": 112,
+  "device": "cuda"
+}

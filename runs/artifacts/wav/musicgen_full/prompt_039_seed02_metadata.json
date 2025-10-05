@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_039",
+  "prompt": "folk, 103 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, chorus",
+  "seed": 2,
+  "genre": "folk",
+  "bpm": 103,
+  "device": "cuda"
+}

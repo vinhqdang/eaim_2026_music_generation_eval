@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_053",
+  "prompt": "trap, 119 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, lo-fi texture",
+  "seed": 2,
+  "genre": "trap",
+  "bpm": 119,
+  "device": "cuda"
+}

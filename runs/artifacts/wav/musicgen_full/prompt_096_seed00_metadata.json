@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_096",
+  "prompt": "trap, 116 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, vinyl crackle",
+  "seed": 0,
+  "genre": "trap",
+  "bpm": 116,
+  "device": "cuda"
+}

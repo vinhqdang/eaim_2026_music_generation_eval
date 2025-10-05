@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_077",
+  "prompt": "rock, 180 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, lo-fi texture",
+  "seed": 1,
+  "genre": "rock",
+  "bpm": 180,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_066",
+  "prompt": "ambient, 113 BPM, instrumentation: strings, piano, structure: 32-bar standard form, vinyl crackle",
+  "seed": 0,
+  "genre": "ambient",
+  "bpm": 113,
+  "device": "cuda"
+}

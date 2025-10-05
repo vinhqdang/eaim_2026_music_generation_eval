@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_000",
+  "prompt": "rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",
+  "seed": 2,
+  "genre": "rock",
+  "bpm": 97,
+  "device": "cuda"
+}

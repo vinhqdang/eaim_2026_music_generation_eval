@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_089",
+  "prompt": "rock, 160 BPM, instrumentation: violin, cello, piano, structure: AABA, 8 bars each, chorus",
+  "seed": 0,
+  "genre": "rock",
+  "bpm": 160,
+  "device": "cuda"
+}

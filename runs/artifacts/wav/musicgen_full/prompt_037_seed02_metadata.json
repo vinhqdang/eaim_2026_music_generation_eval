@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_037",
+  "prompt": "funk, 80 BPM, instrumentation: saxophone, piano, bass, drums, structure: 32-bar standard form, chorus",
+  "seed": 2,
+  "genre": "funk",
+  "bpm": 80,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_094",
+  "prompt": "trap, 102 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, echo",
+  "seed": 1,
+  "genre": "trap",
+  "bpm": 102,
+  "device": "cuda"
+}

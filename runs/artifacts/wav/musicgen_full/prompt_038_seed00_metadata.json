@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_038",
+  "prompt": "rock, 67 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, tape saturation",
+  "seed": 0,
+  "genre": "rock",
+  "bpm": 67,
+  "device": "cuda"
+}

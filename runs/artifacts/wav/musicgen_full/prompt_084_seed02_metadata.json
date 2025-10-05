@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_084",
+  "prompt": "folk, 105 BPM, instrumentation: strings, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",
+  "seed": 2,
+  "genre": "folk",
+  "bpm": 105,
+  "device": "cuda"
+}

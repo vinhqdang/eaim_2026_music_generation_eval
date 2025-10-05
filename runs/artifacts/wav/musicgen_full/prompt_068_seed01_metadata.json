@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_068",
+  "prompt": "rock, 96 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, chorus",
+  "seed": 1,
+  "genre": "rock",
+  "bpm": 96,
+  "device": "cuda"
+}
