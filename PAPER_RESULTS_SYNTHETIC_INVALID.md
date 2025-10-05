@@ -1,3 +1,4 @@
+# WARNING: This file contains SYNTHETIC results, not real experiments
 # Experimental Results for EAIM 2026 Paper
 **Behavioral Evaluation of Co-Creative Music Models (No-Human Variant)**
 

@@ -1,0 +1,13 @@
+{
+  "model": "musicgen-small",
+  "prompt": "rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",
+  "duration_target": 10,
+  "generation_time": 10.703115701675415,
+  "device": "cuda",
+  "sampling_rate": 32000,
+  "max_new_tokens": 500,
+  "temperature": 1.0,
+  "guidance_scale": 3.0,
+  "file_size_kb": 621.29296875,
+  "timestamp": "2025-10-05 08:49:58"
+}

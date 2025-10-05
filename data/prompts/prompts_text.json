@@ -1,0 +1,902 @@
+[
+  {
+    "id": "prompt_000",
+    "text": "rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",
+    "genre": "rock",
+    "bpm": 97,
+    "instruments": "piano, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_001",
+    "text": "electronic, 78 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, phaser",
+    "genre": "electronic",
+    "bpm": 78,
+    "instruments": "guitar, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_002",
+    "text": "techno, 97 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",
+    "genre": "techno",
+    "bpm": 97,
+    "instruments": "piano, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_003",
+    "text": "dubstep, 177 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, distortion",
+    "genre": "dubstep",
+    "bpm": 177,
+    "instruments": "piano, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_004",
+    "text": "house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",
+    "genre": "house",
+    "bpm": 180,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "echo"
+  },
+  {
+    "id": "prompt_005",
+    "text": "reggae, 62 BPM, instrumentation: strings, piano, structure: AABA, 8 bars each, tape saturation",
+    "genre": "reggae",
+    "bpm": 62,
+    "instruments": "strings, piano",
+    "structure": "AABA, 8 bars each",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_006",
+    "text": "soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+    "genre": "soul",
+    "bpm": 155,
+    "instruments": "guitar, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_007",
+    "text": "jazz, 172 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, reverb",
+    "genre": "jazz",
+    "bpm": 172,
+    "instruments": "violin, cello, piano",
+    "structure": "intro-A-B-A",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_008",
+    "text": "trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",
+    "genre": "trap",
+    "bpm": 148,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "clean production"
+  },
+  {
+    "id": "prompt_009",
+    "text": "folk, 132 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",
+    "genre": "folk",
+    "bpm": 132,
+    "instruments": "guitar, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_010",
+    "text": "blues, 190 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, lo-fi texture",
+    "genre": "blues",
+    "bpm": 190,
+    "instruments": "guitar, bass, drums",
+    "structure": "32-bar standard form",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_011",
+    "text": "funk, 111 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+    "genre": "funk",
+    "bpm": 111,
+    "instruments": "strings, piano",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_012",
+    "text": "reggae, 95 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",
+    "genre": "reggae",
+    "bpm": 95,
+    "instruments": "guitar, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "echo"
+  },
+  {
+    "id": "prompt_013",
+    "text": "house, 111 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",
+    "genre": "house",
+    "bpm": 111,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_014",
+    "text": "pop, 142 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, vinyl crackle",
+    "genre": "pop",
+    "bpm": 142,
+    "instruments": "piano, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_015",
+    "text": "reggae, 136 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, clean production",
+    "genre": "reggae",
+    "bpm": 136,
+    "instruments": "guitar, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "clean production"
+  },
+  {
+    "id": "prompt_016",
+    "text": "drum and bass, 98 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, chorus",
+    "genre": "drum and bass",
+    "bpm": 98,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_017",
+    "text": "electronic, 153 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, phaser",
+    "genre": "electronic",
+    "bpm": 153,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_018",
+    "text": "techno, 106 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",
+    "genre": "techno",
+    "bpm": 106,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_019",
+    "text": "drum and bass, 110 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",
+    "genre": "drum and bass",
+    "bpm": 110,
+    "instruments": "guitar, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_020",
+    "text": "ambient, 182 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, reverb",
+    "genre": "ambient",
+    "bpm": 182,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_021",
+    "text": "house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, vinyl crackle",
+    "genre": "house",
+    "bpm": 77,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "intro-A-B-A",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_022",
+    "text": "reggae, 175 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, lo-fi texture",
+    "genre": "reggae",
+    "bpm": 175,
+    "instruments": "electric guitar, bass, drums, keyboard",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_023",
+    "text": "house, 106 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",
+    "genre": "house",
+    "bpm": 106,
+    "instruments": "piano, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_024",
+    "text": "rock, 94 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, phaser",
+    "genre": "rock",
+    "bpm": 94,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_025",
+    "text": "funk, 79 BPM, instrumentation: strings, piano, structure: intro-A-B-A, phaser",
+    "genre": "funk",
+    "bpm": 79,
+    "instruments": "strings, piano",
+    "structure": "intro-A-B-A",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_026",
+    "text": "pop, 158 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",
+    "genre": "pop",
+    "bpm": 158,
+    "instruments": "violin, cello, piano",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_027",
+    "text": "metal, 62 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",
+    "genre": "metal",
+    "bpm": 62,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_028",
+    "text": "drum and bass, 111 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",
+    "genre": "drum and bass",
+    "bpm": 111,
+    "instruments": "guitar, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "echo"
+  },
+  {
+    "id": "prompt_029",
+    "text": "drum and bass, 200 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",
+    "genre": "drum and bass",
+    "bpm": 200,
+    "instruments": "strings, piano",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_030",
+    "text": "folk, 191 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",
+    "genre": "folk",
+    "bpm": 191,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_031",
+    "text": "funk, 67 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, chorus",
+    "genre": "funk",
+    "bpm": 67,
+    "instruments": "violin, cello, piano",
+    "structure": "intro-A-B-A",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_032",
+    "text": "blues, 108 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, vinyl crackle",
+    "genre": "blues",
+    "bpm": 108,
+    "instruments": "guitar, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_033",
+    "text": "blues, 92 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",
+    "genre": "blues",
+    "bpm": 92,
+    "instruments": "piano, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_034",
+    "text": "jazz, 98 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",
+    "genre": "jazz",
+    "bpm": 98,
+    "instruments": "electric guitar, bass, drums, keyboard",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_035",
+    "text": "drum and bass, 177 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, echo",
+    "genre": "drum and bass",
+    "bpm": 177,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "echo"
+  },
+  {
+    "id": "prompt_036",
+    "text": "drum and bass, 73 BPM, instrumentation: saxophone, piano, bass, drums, structure: AABA, 8 bars each, reverb",
+    "genre": "drum and bass",
+    "bpm": 73,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_037",
+    "text": "funk, 80 BPM, instrumentation: saxophone, piano, bass, drums, structure: 32-bar standard form, chorus",
+    "genre": "funk",
+    "bpm": 80,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "32-bar standard form",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_038",
+    "text": "rock, 67 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, tape saturation",
+    "genre": "rock",
+    "bpm": 67,
+    "instruments": "piano, bass, drums",
+    "structure": "32-bar standard form",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_039",
+    "text": "folk, 103 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, chorus",
+    "genre": "folk",
+    "bpm": 103,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_040",
+    "text": "ambient, 74 BPM, instrumentation: acoustic guitar, vocals, structure: 32-bar standard form, distortion",
+    "genre": "ambient",
+    "bpm": 74,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "32-bar standard form",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_041",
+    "text": "trap, 62 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",
+    "genre": "trap",
+    "bpm": 62,
+    "instruments": "guitar, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_042",
+    "text": "blues, 176 BPM, instrumentation: strings, piano, structure: 32-bar standard form, chorus",
+    "genre": "blues",
+    "bpm": 176,
+    "instruments": "strings, piano",
+    "structure": "32-bar standard form",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_043",
+    "text": "soul, 72 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, bit-crush",
+    "genre": "soul",
+    "bpm": 72,
+    "instruments": "piano, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "bit-crush"
+  },
+  {
+    "id": "prompt_044",
+    "text": "reggae, 174 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",
+    "genre": "reggae",
+    "bpm": 174,
+    "instruments": "violin, cello, piano",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "bit-crush"
+  },
+  {
+    "id": "prompt_045",
+    "text": "folk, 70 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, vinyl crackle",
+    "genre": "folk",
+    "bpm": 70,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "AABA, 8 bars each",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_046",
+    "text": "jazz, 91 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, chorus",
+    "genre": "jazz",
+    "bpm": 91,
+    "instruments": "piano, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_047",
+    "text": "dubstep, 67 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, reverb",
+    "genre": "dubstep",
+    "bpm": 67,
+    "instruments": "guitar, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_048",
+    "text": "soul, 79 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, distortion",
+    "genre": "soul",
+    "bpm": 79,
+    "instruments": "guitar, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_049",
+    "text": "classical piano, 159 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, clean production",
+    "genre": "classical piano",
+    "bpm": 159,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "clean production"
+  },
+  {
+    "id": "prompt_050",
+    "text": "reggae, 98 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",
+    "genre": "reggae",
+    "bpm": 98,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_051",
+    "text": "soul, 180 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, lo-fi texture",
+    "genre": "soul",
+    "bpm": 180,
+    "instruments": "strings, piano",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_052",
+    "text": "classical piano, 62 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, clean production",
+    "genre": "classical piano",
+    "bpm": 62,
+    "instruments": "piano, bass, drums",
+    "structure": "32-bar standard form",
+    "effect": "clean production"
+  },
+  {
+    "id": "prompt_053",
+    "text": "trap, 119 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, lo-fi texture",
+    "genre": "trap",
+    "bpm": 119,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_054",
+    "text": "funk, 135 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, tape saturation",
+    "genre": "funk",
+    "bpm": 135,
+    "instruments": "guitar, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_055",
+    "text": "house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, phaser",
+    "genre": "house",
+    "bpm": 77,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "intro-A-B-A",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_056",
+    "text": "metal, 63 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",
+    "genre": "metal",
+    "bpm": 63,
+    "instruments": "guitar, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_057",
+    "text": "trap, 112 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",
+    "genre": "trap",
+    "bpm": 112,
+    "instruments": "strings, piano",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_058",
+    "text": "pop, 178 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",
+    "genre": "pop",
+    "bpm": 178,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_059",
+    "text": "jazz, 131 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, bit-crush",
+    "genre": "jazz",
+    "bpm": 131,
+    "instruments": "guitar, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "bit-crush"
+  },
+  {
+    "id": "prompt_060",
+    "text": "lo-fi hip-hop, 113 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: AABA, 8 bars each, lo-fi texture",
+    "genre": "lo-fi hip-hop",
+    "bpm": 113,
+    "instruments": "electric guitar, bass, drums, keyboard",
+    "structure": "AABA, 8 bars each",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_061",
+    "text": "house, 62 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",
+    "genre": "house",
+    "bpm": 62,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_062",
+    "text": "electronic, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, clean production",
+    "genre": "electronic",
+    "bpm": 103,
+    "instruments": "piano, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "clean production"
+  },
+  {
+    "id": "prompt_063",
+    "text": "electronic, 71 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+    "genre": "electronic",
+    "bpm": 71,
+    "instruments": "piano, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_064",
+    "text": "folk, 154 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, reverb",
+    "genre": "folk",
+    "bpm": 154,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_065",
+    "text": "trap, 117 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, echo",
+    "genre": "trap",
+    "bpm": 117,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "echo"
+  },
+  {
+    "id": "prompt_066",
+    "text": "ambient, 113 BPM, instrumentation: strings, piano, structure: 32-bar standard form, vinyl crackle",
+    "genre": "ambient",
+    "bpm": 113,
+    "instruments": "strings, piano",
+    "structure": "32-bar standard form",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_067",
+    "text": "pop, 135 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, distortion",
+    "genre": "pop",
+    "bpm": 135,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_068",
+    "text": "rock, 96 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, chorus",
+    "genre": "rock",
+    "bpm": 96,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_069",
+    "text": "house, 90 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",
+    "genre": "house",
+    "bpm": 90,
+    "instruments": "electric guitar, bass, drums, keyboard",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_070",
+    "text": "folk, 68 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",
+    "genre": "folk",
+    "bpm": 68,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_071",
+    "text": "funk, 160 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, phaser",
+    "genre": "funk",
+    "bpm": 160,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_072",
+    "text": "lo-fi hip-hop, 131 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, echo",
+    "genre": "lo-fi hip-hop",
+    "bpm": 131,
+    "instruments": "guitar, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "echo"
+  },
+  {
+    "id": "prompt_073",
+    "text": "rock, 189 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+    "genre": "rock",
+    "bpm": 189,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_074",
+    "text": "dubstep, 98 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, clean production",
+    "genre": "dubstep",
+    "bpm": 98,
+    "instruments": "guitar, bass, drums",
+    "structure": "32-bar standard form",
+    "effect": "clean production"
+  },
+  {
+    "id": "prompt_075",
+    "text": "jazz, 101 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",
+    "genre": "jazz",
+    "bpm": 101,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_076",
+    "text": "techno, 151 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",
+    "genre": "techno",
+    "bpm": 151,
+    "instruments": "guitar, bass, drums",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "tape saturation"
+  },
+  {
+    "id": "prompt_077",
+    "text": "rock, 180 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, lo-fi texture",
+    "genre": "rock",
+    "bpm": 180,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "intro-A-B-A",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_078",
+    "text": "soul, 103 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, echo",
+    "genre": "soul",
+    "bpm": 103,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "intro-A-B-A",
+    "effect": "echo"
+  },
+  {
+    "id": "prompt_079",
+    "text": "soul, 142 BPM, instrumentation: strings, piano, structure: intro-A-B-A, clean production",
+    "genre": "soul",
+    "bpm": 142,
+    "instruments": "strings, piano",
+    "structure": "intro-A-B-A",
+    "effect": "clean production"
+  },
+  {
+    "id": "prompt_080",
+    "text": "trap, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",
+    "genre": "trap",
+    "bpm": 103,
+    "instruments": "piano, bass, drums",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_081",
+    "text": "pop, 106 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, chorus",
+    "genre": "pop",
+    "bpm": 106,
+    "instruments": "violin, cello, piano",
+    "structure": "32-bar standard form",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_082",
+    "text": "drum and bass, 146 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, reverb",
+    "genre": "drum and bass",
+    "bpm": 146,
+    "instruments": "strings, piano",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "reverb"
+  },
+  {
+    "id": "prompt_083",
+    "text": "pop, 115 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",
+    "genre": "pop",
+    "bpm": 115,
+    "instruments": "guitar, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_084",
+    "text": "folk, 105 BPM, instrumentation: strings, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",
+    "genre": "folk",
+    "bpm": 105,
+    "instruments": "strings, piano",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_085",
+    "text": "classical piano, 112 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, clean production",
+    "genre": "classical piano",
+    "bpm": 112,
+    "instruments": "violin, cello, piano",
+    "structure": "32-bar standard form",
+    "effect": "clean production"
+  },
+  {
+    "id": "prompt_086",
+    "text": "soul, 110 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, distortion",
+    "genre": "soul",
+    "bpm": 110,
+    "instruments": "violin, cello, piano",
+    "structure": "32-bar standard form",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_087",
+    "text": "lo-fi hip-hop, 115 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, distortion",
+    "genre": "lo-fi hip-hop",
+    "bpm": 115,
+    "instruments": "guitar, bass, drums",
+    "structure": "32-bar standard form",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_088",
+    "text": "dubstep, 119 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",
+    "genre": "dubstep",
+    "bpm": 119,
+    "instruments": "violin, cello, piano",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "phaser"
+  },
+  {
+    "id": "prompt_089",
+    "text": "rock, 160 BPM, instrumentation: violin, cello, piano, structure: AABA, 8 bars each, chorus",
+    "genre": "rock",
+    "bpm": 160,
+    "instruments": "violin, cello, piano",
+    "structure": "AABA, 8 bars each",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_090",
+    "text": "house, 113 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, chorus",
+    "genre": "house",
+    "bpm": 113,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "chorus"
+  },
+  {
+    "id": "prompt_091",
+    "text": "drum and bass, 154 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",
+    "genre": "drum and bass",
+    "bpm": 154,
+    "instruments": "violin, cello, piano",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_092",
+    "text": "dubstep, 144 BPM, instrumentation: violin, cello, piano, structure: 4-bar intro, 32-bar development, distortion",
+    "genre": "dubstep",
+    "bpm": 144,
+    "instruments": "violin, cello, piano",
+    "structure": "4-bar intro, 32-bar development",
+    "effect": "distortion"
+  },
+  {
+    "id": "prompt_093",
+    "text": "classical piano, 140 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, lo-fi texture",
+    "genre": "classical piano",
+    "bpm": 140,
+    "instruments": "acoustic guitar, vocals",
+    "structure": "AABA, 8 bars each",
+    "effect": "lo-fi texture"
+  },
+  {
+    "id": "prompt_094",
+    "text": "trap, 102 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, echo",
+    "genre": "trap",
+    "bpm": 102,
+    "instruments": "guitar, bass, drums",
+    "structure": "AABA, 8 bars each",
+    "effect": "echo"
+  },
+  {
+    "id": "prompt_095",
+    "text": "electronic, 180 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, bit-crush",
+    "genre": "electronic",
+    "bpm": 180,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "8-bar intro, 16-bar verse, 16-bar chorus",
+    "effect": "bit-crush"
+  },
+  {
+    "id": "prompt_096",
+    "text": "trap, 116 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, vinyl crackle",
+    "genre": "trap",
+    "bpm": 116,
+    "instruments": "violin, cello, piano",
+    "structure": "32-bar standard form",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_097",
+    "text": "techno, 185 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",
+    "genre": "techno",
+    "bpm": 185,
+    "instruments": "saxophone, piano, bass, drums",
+    "structure": "intro-A-B-A",
+    "effect": "vinyl crackle"
+  },
+  {
+    "id": "prompt_098",
+    "text": "lo-fi hip-hop, 187 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",
+    "genre": "lo-fi hip-hop",
+    "bpm": 187,
+    "instruments": "electric guitar, bass, drums, keyboard",
+    "structure": "verse-chorus-verse-chorus-bridge-chorus",
+    "effect": "bit-crush"
+  },
+  {
+    "id": "prompt_099",
+    "text": "trap, 143 BPM, instrumentation: synthesizer, bass, drums, structure: 32-bar standard form, distortion",
+    "genre": "trap",
+    "bpm": 143,
+    "instruments": "synthesizer, bass, drums",
+    "structure": "32-bar standard form",
+    "effect": "distortion"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_008",
+  "prompt": "trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",
+  "genre": "trap",
+  "bpm": 148,
+  "generation_time_sec": 43.057536602020264,
+  "device": "cuda",
+  "timestamp": "2025-10-05 10:15:23",
+  "REAL_MODEL_OUTPUT": true
+}

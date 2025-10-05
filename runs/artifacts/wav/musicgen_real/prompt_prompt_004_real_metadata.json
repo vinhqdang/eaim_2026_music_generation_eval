@@ -1,0 +1,11 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_004",
+  "prompt": "house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",
+  "genre": "house",
+  "bpm": 180,
+  "generation_time_sec": 14.978689193725586,
+  "device": "cuda",
+  "timestamp": "2025-10-05 10:13:41",
+  "REAL_MODEL_OUTPUT": true
+}

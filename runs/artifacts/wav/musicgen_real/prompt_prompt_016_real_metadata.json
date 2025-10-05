@@ -1,0 +1,11 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_016",
+  "prompt": "drum and bass, 98 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, chorus",
+  "genre": "drum and bass",
+  "bpm": 98,
+  "generation_time_sec": 14.748446226119995,
+  "device": "cuda",
+  "timestamp": "2025-10-05 10:18:15",
+  "REAL_MODEL_OUTPUT": true
+}

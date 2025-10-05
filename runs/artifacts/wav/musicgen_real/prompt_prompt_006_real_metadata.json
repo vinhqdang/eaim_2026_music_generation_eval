@@ -1,0 +1,11 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_006",
+  "prompt": "soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+  "genre": "soul",
+  "bpm": 155,
+  "generation_time_sec": 23.748618125915527,
+  "device": "cuda",
+  "timestamp": "2025-10-05 10:14:20",
+  "REAL_MODEL_OUTPUT": true
+}

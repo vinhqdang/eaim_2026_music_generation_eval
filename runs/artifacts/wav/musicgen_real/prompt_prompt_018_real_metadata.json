@@ -1,0 +1,11 @@
+{
+  "model": "musicgen-small",
+  "prompt_id": "prompt_018",
+  "prompt": "techno, 106 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",
+  "genre": "techno",
+  "bpm": 106,
+  "generation_time_sec": 15.107202529907227,
+  "device": "cuda",
+  "timestamp": "2025-10-05 10:18:46",
+  "REAL_MODEL_OUTPUT": true
+}
