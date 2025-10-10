@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_073",
+  "prompt": "rock, 189 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+  "seed": 2,
+  "genre": "rock",
+  "bpm": 189,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_087",
+  "prompt": "lo-fi hip-hop, 115 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, distortion",
+  "seed": 0,
+  "genre": "lo-fi hip-hop",
+  "bpm": 115,
+  "device": "cuda"
+}

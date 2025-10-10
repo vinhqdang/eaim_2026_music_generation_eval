@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_064",
+  "prompt": "folk, 154 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, reverb",
+  "seed": 2,
+  "genre": "folk",
+  "bpm": 154,
+  "device": "cuda"
+}

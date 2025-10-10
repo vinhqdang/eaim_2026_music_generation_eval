@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_080",
+  "prompt": "trap, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",
+  "seed": 2,
+  "genre": "trap",
+  "bpm": 103,
+  "device": "cuda"
+}

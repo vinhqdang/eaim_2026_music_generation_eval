@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_099",
+  "prompt": "trap, 143 BPM, instrumentation: synthesizer, bass, drums, structure: 32-bar standard form, distortion",
+  "seed": 0,
+  "genre": "trap",
+  "bpm": 143,
+  "device": "cuda"
+}

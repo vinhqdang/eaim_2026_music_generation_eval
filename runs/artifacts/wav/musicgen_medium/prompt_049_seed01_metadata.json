@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_049",
+  "prompt": "classical piano, 159 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, clean production",
+  "seed": 1,
+  "genre": "classical piano",
+  "bpm": 159,
+  "device": "cuda"
+}

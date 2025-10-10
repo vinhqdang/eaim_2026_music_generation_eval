@@ -126,16 +126,16 @@ def main():
     print("COMPUTING COMPREHENSIVE METRICS ON ALL AUDIO")
     print("="*60)
 
-    # Process MusicGen
-    print("\n1. MusicGen samples...")
-    musicgen_df = process_directory("runs/artifacts/wav/musicgen_full", num_workers=8)
+    # Process MusicGen-small
+    print("\n1. MusicGen-small samples...")
+    musicgen_small_df = process_directory("runs/artifacts/wav/musicgen_full", num_workers=8)
 
-    # Process Stable Audio
-    print("\n2. Stable Audio samples...")
-    stableaudio_df = process_directory("runs/artifacts/wav/stableaudio_full", num_workers=8)
+    # Process MusicGen-medium
+    print("\n2. MusicGen-medium samples...")
+    musicgen_medium_df = process_directory("runs/artifacts/wav/musicgen_medium", num_workers=8)
 
     # Combine
-    all_df = pd.concat([musicgen_df, stableaudio_df], ignore_index=True)
+    all_df = pd.concat([musicgen_small_df, musicgen_medium_df], ignore_index=True)
 
     # Filter successful
     success_df = all_df[all_df['success'] == True].copy()

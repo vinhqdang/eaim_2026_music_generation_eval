@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_063",
+  "prompt": "electronic, 71 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+  "seed": 1,
+  "genre": "electronic",
+  "bpm": 71,
+  "device": "cuda"
+}

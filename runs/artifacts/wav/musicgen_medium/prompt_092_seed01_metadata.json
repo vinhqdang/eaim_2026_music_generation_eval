@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_092",
+  "prompt": "dubstep, 144 BPM, instrumentation: violin, cello, piano, structure: 4-bar intro, 32-bar development, distortion",
+  "seed": 1,
+  "genre": "dubstep",
+  "bpm": 144,
+  "device": "cuda"
+}

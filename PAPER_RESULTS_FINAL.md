@@ -2,8 +2,8 @@
 
 **Status**: ✅ COMPLETE REAL EXPERIMENTAL DATA
 
-**Samples**: 300 real audio files
-**Models**: musicgen-small
+**Samples**: 600 real audio files
+**Models**: musicgen-small, musicgen-medium
 
 ---
 
@@ -12,16 +12,30 @@
 ### MUSICGEN-SMALL
 
 - **Tempo**: 117.8 ± 29.7 BPM
-- **Energy**: 0.126 ± 0.043
-- **Spectral Centroid**: 2224 ± 839 Hz
 
 **Tempo Accuracy**:
 - Median error: 2.5 BPM
 - Within 5 BPM: 59.3%
 
+### MUSICGEN-MEDIUM
+
+- **Tempo**: 119.3 ± 28.0 BPM
+
+**Tempo Accuracy**:
+- Median error: 2.6 BPM
+- Within 5 BPM: 57.0%
+
 ---
 
 ## 2. Statistical Tests
+
+### tempo_bpm
+
+- Test: mann_whitney
+- Statistic: 43368.50
+- p-value: 0.4415
+- Significant: ✗ No
+- Effect size (Cohen's d): -0.050
 
 ---
 

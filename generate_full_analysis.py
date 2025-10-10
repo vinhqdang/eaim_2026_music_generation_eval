@@ -12,11 +12,11 @@ import json
 
 def load_metrics():
     """Load computed metrics."""
-    metrics_file = Path("runs/results_FULL/all_audio_metrics.parquet")
+    metrics_file = Path("runs/results_FULL/metrics_simple.parquet")
 
     if not metrics_file.exists():
         print(f"ERROR: Metrics file not found: {metrics_file}")
-        print("Run: python compute_full_metrics.py first")
+        print("Run: python compute_simple_metrics.py first")
         return None
 
     df = pd.read_parquet(metrics_file)
@@ -38,8 +38,7 @@ def compute_summary_statistics(df):
         print(f"\n{model.upper()} (n={len(model_df)})")
         print("-" * 40)
 
-        metrics = ['tempo_bpm', 'rms_energy_mean', 'spectral_centroid_mean',
-                   'chroma_mean', 'spectral_bandwidth_mean']
+        metrics = ['tempo_bpm', 'rms_energy', 'spectral_centroid']
 
         stats_dict = {}
         for metric in metrics:

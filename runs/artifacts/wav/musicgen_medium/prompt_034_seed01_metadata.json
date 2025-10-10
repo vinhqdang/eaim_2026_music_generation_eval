@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_034",
+  "prompt": "jazz, 98 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",
+  "seed": 1,
+  "genre": "jazz",
+  "bpm": 98,
+  "device": "cuda"
+}

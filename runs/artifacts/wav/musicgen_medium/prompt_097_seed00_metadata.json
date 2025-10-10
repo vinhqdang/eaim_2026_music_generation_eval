@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_097",
+  "prompt": "techno, 185 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",
+  "seed": 0,
+  "genre": "techno",
+  "bpm": 185,
+  "device": "cuda"
+}

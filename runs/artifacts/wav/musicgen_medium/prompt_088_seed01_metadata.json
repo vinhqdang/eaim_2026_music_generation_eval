@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_088",
+  "prompt": "dubstep, 119 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",
+  "seed": 1,
+  "genre": "dubstep",
+  "bpm": 119,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_046",
+  "prompt": "jazz, 91 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, chorus",
+  "seed": 0,
+  "genre": "jazz",
+  "bpm": 91,
+  "device": "cuda"
+}

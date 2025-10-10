@@ -1,0 +1,202 @@
+================================================================================
+COMPLETE EXPERIMENTAL RESULTS - EAIM 2026 MUSIC GENERATION EVALUATION
+================================================================================
+
+Dataset: 300 REAL audio samples from MusicGen-small model
+Generation: 100 prompts × 3 random seeds
+Success Rate: 100% (300/300 samples generated successfully)
+Generation Time: 48.5 minutes total (9.7 seconds per sample)
+
+================================================================================
+1. COMPREHENSIVE SUMMARY STATISTICS
+================================================================================
+
+       tempo_bpm  spectral_centroid_mean  ...  spectral_contrast_mean  duration_sec
+count     300.00                  300.00  ...                  300.00        300.00
+mean      117.84                 2224.38  ...                   22.91          9.94
+std        29.68                  838.80  ...                    2.12          0.00
+min        60.09                  526.29  ...                   17.31          9.94
+25%        95.70                 1687.20  ...                   21.31          9.94
+50%       112.35                 2206.83  ...                   22.59          9.94
+75%       137.89                 2708.06  ...                   24.39          9.94
+max       234.91                 5268.80  ...                   28.81          9.94
+
+[8 rows x 9 columns]
+
+================================================================================
+2. TEMPO ACCURACY ANALYSIS
+================================================================================
+
+Mean Tempo Error: 28.53 BPM
+Median Tempo Error: 2.45 BPM
+Std Tempo Error: 35.89 BPM
+Min Error: 0.00 BPM
+Max Error: 115.91 BPM
+
+Within 1 BPM: 69/300 (23.0%)
+Within 2 BPM: 134/300 (44.7%)
+Within 5 BPM: 178/300 (59.3%)
+Within 10 BPM: 182/300 (60.7%)
+Within 20 BPM: 182/300 (60.7%)
+
+================================================================================
+3. GENRE-WISE ANALYSIS
+================================================================================
+
+AMBIENT (n=9):
+  Tempo: 122.2 ± 24.3 BPM
+  Energy: 0.156 ± 0.066
+  Tempo Accuracy: 59.0 BPM median error
+
+BLUES (n=12):
+  Tempo: 114.3 ± 28.7 BPM
+  Energy: 0.150 ± 0.038
+  Tempo Accuracy: 2.0 BPM median error
+
+CLASSICAL PIANO (n=12):
+  Tempo: 116.6 ± 39.9 BPM
+  Energy: 0.143 ± 0.036
+  Tempo Accuracy: 2.5 BPM median error
+
+DRUM AND BASS (n=24):
+  Tempo: 122.2 ± 29.6 BPM
+  Energy: 0.109 ± 0.039
+  Tempo Accuracy: 3.6 BPM median error
+
+DUBSTEP (n=15):
+  Tempo: 130.2 ± 38.2 BPM
+  Energy: 0.116 ± 0.042
+  Tempo Accuracy: 4.7 BPM median error
+
+ELECTRONIC (n=15):
+  Tempo: 124.8 ± 33.4 BPM
+  Energy: 0.106 ± 0.021
+  Tempo Accuracy: 72.6 BPM median error
+
+FOLK (n=21):
+  Tempo: 113.4 ± 27.3 BPM
+  Energy: 0.119 ± 0.034
+  Tempo Accuracy: 2.0 BPM median error
+
+FUNK (n=18):
+  Tempo: 119.1 ± 32.4 BPM
+  Energy: 0.096 ± 0.025
+  Tempo Accuracy: 1.4 BPM median error
+
+HOUSE (n=24):
+  Tempo: 112.3 ± 25.3 BPM
+  Energy: 0.122 ± 0.042
+  Tempo Accuracy: 1.7 BPM median error
+
+JAZZ (n=15):
+  Tempo: 114.7 ± 26.6 BPM
+  Energy: 0.158 ± 0.037
+  Tempo Accuracy: 1.6 BPM median error
+
+LO-FI HIP-HOP (n=12):
+  Tempo: 120.1 ± 23.8 BPM
+  Energy: 0.128 ± 0.038
+  Tempo Accuracy: 2.1 BPM median error
+
+METAL (n=6):
+  Tempo: 121.2 ± 11.1 BPM
+  Energy: 0.150 ± 0.024
+  Tempo Accuracy: 61.0 BPM median error
+
+POP (n=18):
+  Tempo: 119.8 ± 30.2 BPM
+  Energy: 0.131 ± 0.045
+  Tempo Accuracy: 2.5 BPM median error
+
+REGGAE (n=18):
+  Tempo: 121.8 ± 36.3 BPM
+  Energy: 0.093 ± 0.034
+  Tempo Accuracy: 1.7 BPM median error
+
+ROCK (n=21):
+  Tempo: 112.4 ± 23.0 BPM
+  Energy: 0.144 ± 0.041
+  Tempo Accuracy: 35.2 BPM median error
+
+SOUL (n=21):
+  Tempo: 112.0 ± 31.8 BPM
+  Energy: 0.140 ± 0.047
+  Tempo Accuracy: 6.5 BPM median error
+
+TECHNO (n=12):
+  Tempo: 104.4 ± 23.9 BPM
+  Energy: 0.110 ± 0.041
+  Tempo Accuracy: 1.7 BPM median error
+
+TRAP (n=27):
+  Tempo: 122.3 ± 32.2 BPM
+  Energy: 0.131 ± 0.042
+  Tempo Accuracy: 1.4 BPM median error
+
+================================================================================
+4. BEST AND WORST TEMPO MATCHES
+================================================================================
+
+TOP 10 BEST MATCHES:
+  prompt_070_seed02.wav          Target:  68 BPM -> Generated:  68.00 BPM (error:  0.00)
+  prompt_070_seed01.wav          Target:  68 BPM -> Generated:  68.00 BPM (error:  0.00)
+  prompt_015_seed02.wav          Target: 136 BPM -> Generated: 136.00 BPM (error:  0.00)
+  prompt_015_seed01.wav          Target: 136 BPM -> Generated: 136.00 BPM (error:  0.00)
+  prompt_015_seed00.wav          Target: 136 BPM -> Generated: 136.00 BPM (error:  0.00)
+  prompt_045_seed02.wav          Target:  70 BPM -> Generated:  69.84 BPM (error:  0.16)
+  prompt_043_seed00.wav          Target:  72 BPM -> Generated:  71.78 BPM (error:  0.22)
+  prompt_033_seed01.wav          Target:  92 BPM -> Generated:  92.29 BPM (error:  0.29)
+  prompt_033_seed00.wav          Target:  92 BPM -> Generated:  92.29 BPM (error:  0.29)
+  prompt_033_seed02.wav          Target:  92 BPM -> Generated:  92.29 BPM (error:  0.29)
+
+TOP 10 WORST MATCHES:
+  prompt_097_seed02.wav          Target: 185 BPM -> Generated:  89.10 BPM (error: 95.90)
+  prompt_029_seed02.wav          Target: 200 BPM -> Generated: 103.36 BPM (error: 96.64)
+  prompt_073_seed01.wav          Target: 189 BPM -> Generated:  92.29 BPM (error: 96.71)
+  prompt_073_seed00.wav          Target: 189 BPM -> Generated:  92.29 BPM (error: 96.71)
+  prompt_029_seed00.wav          Target: 200 BPM -> Generated:  99.38 BPM (error: 100.62)
+  prompt_074_seed02.wav          Target:  98 BPM -> Generated: 198.77 BPM (error: 100.77)
+  prompt_050_seed01.wav          Target:  98 BPM -> Generated: 198.77 BPM (error: 100.77)
+  prompt_074_seed01.wav          Target:  98 BPM -> Generated: 198.77 BPM (error: 100.77)
+  prompt_029_seed01.wav          Target: 200 BPM -> Generated:  95.70 BPM (error: 104.30)
+  prompt_053_seed01.wav          Target: 119 BPM -> Generated: 234.91 BPM (error: 115.91)
+
+================================================================================
+5. DISTRIBUTION ANALYSIS
+================================================================================
+
+Tempo Distribution:
+tempo_bin
+<80        29
+80-100     67
+100-120    75
+120-140    54
+140-160    47
+>160       28
+Name: count, dtype: int64
+
+Energy Distribution:
+energy_bin
+Very Low       7
+Low           73
+Medium       144
+High          60
+Very High     16
+Name: count, dtype: int64
+
+================================================================================
+6. CORRELATION ANALYSIS
+================================================================================
+
+                         tempo_bpm  ...  spectral_bandwidth_mean
+tempo_bpm                    1.000  ...                    0.110
+rms_energy_mean              0.115  ...                   -0.283
+spectral_centroid_mean       0.073  ...                    0.824
+chroma_mean                  0.095  ...                    0.529
+spectral_bandwidth_mean      0.110  ...                    1.000
+
+[5 rows x 5 columns]
+
+================================================================================
+✅ COMPLETE ANALYSIS DONE
+================================================================================

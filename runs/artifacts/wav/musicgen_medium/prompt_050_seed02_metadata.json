@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_050",
+  "prompt": "reggae, 98 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",
+  "seed": 2,
+  "genre": "reggae",
+  "bpm": 98,
+  "device": "cuda"
+}

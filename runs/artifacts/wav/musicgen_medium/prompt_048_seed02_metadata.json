@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_048",
+  "prompt": "soul, 79 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, distortion",
+  "seed": 2,
+  "genre": "soul",
+  "bpm": 79,
+  "device": "cuda"
+}

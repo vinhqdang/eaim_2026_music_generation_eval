@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_004",
+  "prompt": "house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",
+  "seed": 1,
+  "genre": "house",
+  "bpm": 180,
+  "device": "cuda"
+}

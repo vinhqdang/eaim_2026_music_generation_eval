@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_086",
+  "prompt": "soul, 110 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, distortion",
+  "seed": 0,
+  "genre": "soul",
+  "bpm": 110,
+  "device": "cuda"
+}

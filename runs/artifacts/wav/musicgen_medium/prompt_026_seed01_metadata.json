@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_026",
+  "prompt": "pop, 158 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",
+  "seed": 1,
+  "genre": "pop",
+  "bpm": 158,
+  "device": "cuda"
+}

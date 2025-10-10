@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_090",
+  "prompt": "house, 113 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, chorus",
+  "seed": 1,
+  "genre": "house",
+  "bpm": 113,
+  "device": "cuda"
+}

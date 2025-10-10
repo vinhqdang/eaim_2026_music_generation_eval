@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_032",
+  "prompt": "blues, 108 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, vinyl crackle",
+  "seed": 2,
+  "genre": "blues",
+  "bpm": 108,
+  "device": "cuda"
+}

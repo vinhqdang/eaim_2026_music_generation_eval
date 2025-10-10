@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_012",
+  "prompt": "reggae, 95 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",
+  "seed": 0,
+  "genre": "reggae",
+  "bpm": 95,
+  "device": "cuda"
+}

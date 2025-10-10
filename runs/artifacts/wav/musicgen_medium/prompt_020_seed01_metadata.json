@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_020",
+  "prompt": "ambient, 182 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, reverb",
+  "seed": 1,
+  "genre": "ambient",
+  "bpm": 182,
+  "device": "cuda"
+}

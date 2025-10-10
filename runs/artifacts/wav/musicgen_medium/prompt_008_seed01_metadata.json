@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_008",
+  "prompt": "trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",
+  "seed": 1,
+  "genre": "trap",
+  "bpm": 148,
+  "device": "cuda"
+}

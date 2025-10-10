@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_045",
+  "prompt": "folk, 70 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, vinyl crackle",
+  "seed": 2,
+  "genre": "folk",
+  "bpm": 70,
+  "device": "cuda"
+}

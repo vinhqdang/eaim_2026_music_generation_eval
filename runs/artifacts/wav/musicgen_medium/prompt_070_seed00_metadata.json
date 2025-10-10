@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_070",
+  "prompt": "folk, 68 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",
+  "seed": 0,
+  "genre": "folk",
+  "bpm": 68,
+  "device": "cuda"
+}

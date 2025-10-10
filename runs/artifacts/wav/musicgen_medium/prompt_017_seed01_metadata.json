@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_017",
+  "prompt": "electronic, 153 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, phaser",
+  "seed": 1,
+  "genre": "electronic",
+  "bpm": 153,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_091",
+  "prompt": "drum and bass, 154 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",
+  "seed": 1,
+  "genre": "drum and bass",
+  "bpm": 154,
+  "device": "cuda"
+}

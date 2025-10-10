@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_031",
+  "prompt": "funk, 67 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, chorus",
+  "seed": 0,
+  "genre": "funk",
+  "bpm": 67,
+  "device": "cuda"
+}

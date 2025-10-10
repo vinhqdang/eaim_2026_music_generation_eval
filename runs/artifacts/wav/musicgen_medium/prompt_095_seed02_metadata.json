@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_095",
+  "prompt": "electronic, 180 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, bit-crush",
+  "seed": 2,
+  "genre": "electronic",
+  "bpm": 180,
+  "device": "cuda"
+}

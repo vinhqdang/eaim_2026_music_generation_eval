@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_029",
+  "prompt": "drum and bass, 200 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",
+  "seed": 0,
+  "genre": "drum and bass",
+  "bpm": 200,
+  "device": "cuda"
+}

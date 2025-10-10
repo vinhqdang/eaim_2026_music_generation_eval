@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_005",
+  "prompt": "reggae, 62 BPM, instrumentation: strings, piano, structure: AABA, 8 bars each, tape saturation",
+  "seed": 1,
+  "genre": "reggae",
+  "bpm": 62,
+  "device": "cuda"
+}

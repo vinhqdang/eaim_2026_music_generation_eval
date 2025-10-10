@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_002",
+  "prompt": "techno, 97 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",
+  "seed": 1,
+  "genre": "techno",
+  "bpm": 97,
+  "device": "cuda"
+}

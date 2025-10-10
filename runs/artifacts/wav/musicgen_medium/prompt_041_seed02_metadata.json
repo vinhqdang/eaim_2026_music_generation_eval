@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_041",
+  "prompt": "trap, 62 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",
+  "seed": 2,
+  "genre": "trap",
+  "bpm": 62,
+  "device": "cuda"
+}

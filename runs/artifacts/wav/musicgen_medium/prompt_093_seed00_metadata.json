@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_093",
+  "prompt": "classical piano, 140 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, lo-fi texture",
+  "seed": 0,
+  "genre": "classical piano",
+  "bpm": 140,
+  "device": "cuda"
+}

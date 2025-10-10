@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_056",
+  "prompt": "metal, 63 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",
+  "seed": 2,
+  "genre": "metal",
+  "bpm": 63,
+  "device": "cuda"
+}

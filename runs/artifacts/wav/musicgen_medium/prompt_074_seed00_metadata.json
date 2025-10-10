@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-medium",
+  "prompt_id": "prompt_074",
+  "prompt": "dubstep, 98 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, clean production",
+  "seed": 0,
+  "genre": "dubstep",
+  "bpm": 98,
+  "device": "cuda"
+}
