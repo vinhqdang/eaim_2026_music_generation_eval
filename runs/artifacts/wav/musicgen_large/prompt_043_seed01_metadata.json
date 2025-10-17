@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_043",
+  "prompt": "soul, 72 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, bit-crush",
+  "seed": 1,
+  "genre": "soul",
+  "bpm": 72,
+  "device": "cuda"
+}

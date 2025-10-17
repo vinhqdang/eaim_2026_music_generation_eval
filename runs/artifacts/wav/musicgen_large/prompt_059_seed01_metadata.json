@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_059",
+  "prompt": "jazz, 131 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, bit-crush",
+  "seed": 1,
+  "genre": "jazz",
+  "bpm": 131,
+  "device": "cuda"
+}

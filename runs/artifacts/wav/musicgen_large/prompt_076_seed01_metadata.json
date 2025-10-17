@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_076",
+  "prompt": "techno, 151 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",
+  "seed": 1,
+  "genre": "techno",
+  "bpm": 151,
+  "device": "cuda"
+}

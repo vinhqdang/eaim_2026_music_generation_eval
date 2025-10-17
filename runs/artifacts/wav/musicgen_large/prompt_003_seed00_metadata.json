@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_003",
+  "prompt": "dubstep, 177 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, distortion",
+  "seed": 0,
+  "genre": "dubstep",
+  "bpm": 177,
+  "device": "cuda"
+}

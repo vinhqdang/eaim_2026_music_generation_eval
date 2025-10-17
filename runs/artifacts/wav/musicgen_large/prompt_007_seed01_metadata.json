@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_007",
+  "prompt": "jazz, 172 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, reverb",
+  "seed": 1,
+  "genre": "jazz",
+  "bpm": 172,
+  "device": "cuda"
+}

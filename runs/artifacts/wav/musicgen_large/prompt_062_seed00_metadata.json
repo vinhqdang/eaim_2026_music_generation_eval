@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_062",
+  "prompt": "electronic, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, clean production",
+  "seed": 0,
+  "genre": "electronic",
+  "bpm": 103,
+  "device": "cuda"
+}

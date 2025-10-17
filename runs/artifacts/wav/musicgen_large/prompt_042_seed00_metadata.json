@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_042",
+  "prompt": "blues, 176 BPM, instrumentation: strings, piano, structure: 32-bar standard form, chorus",
+  "seed": 0,
+  "genre": "blues",
+  "bpm": 176,
+  "device": "cuda"
+}

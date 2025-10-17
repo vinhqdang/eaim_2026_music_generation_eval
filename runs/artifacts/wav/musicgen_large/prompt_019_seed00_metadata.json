@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_019",
+  "prompt": "drum and bass, 110 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",
+  "seed": 0,
+  "genre": "drum and bass",
+  "bpm": 110,
+  "device": "cuda"
+}

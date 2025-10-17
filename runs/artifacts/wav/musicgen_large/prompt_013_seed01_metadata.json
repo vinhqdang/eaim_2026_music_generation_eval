@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_013",
+  "prompt": "house, 111 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",
+  "seed": 1,
+  "genre": "house",
+  "bpm": 111,
+  "device": "cuda"
+}

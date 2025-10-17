@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_009",
+  "prompt": "folk, 132 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",
+  "seed": 0,
+  "genre": "folk",
+  "bpm": 132,
+  "device": "cuda"
+}

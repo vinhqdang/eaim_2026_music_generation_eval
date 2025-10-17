@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_069",
+  "prompt": "house, 90 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",
+  "seed": 0,
+  "genre": "house",
+  "bpm": 90,
+  "device": "cuda"
+}

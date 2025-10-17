@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_010",
+  "prompt": "blues, 190 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, lo-fi texture",
+  "seed": 0,
+  "genre": "blues",
+  "bpm": 190,
+  "device": "cuda"
+}

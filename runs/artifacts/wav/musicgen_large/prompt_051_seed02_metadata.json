@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_051",
+  "prompt": "soul, 180 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, lo-fi texture",
+  "seed": 2,
+  "genre": "soul",
+  "bpm": 180,
+  "device": "cuda"
+}

@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_006",
+  "prompt": "soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",
+  "seed": 1,
+  "genre": "soul",
+  "bpm": 155,
+  "device": "cuda"
+}

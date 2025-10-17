@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_023",
+  "prompt": "house, 106 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",
+  "seed": 2,
+  "genre": "house",
+  "bpm": 106,
+  "device": "cuda"
+}

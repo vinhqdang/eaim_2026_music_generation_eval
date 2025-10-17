@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_067",
+  "prompt": "pop, 135 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, distortion",
+  "seed": 2,
+  "genre": "pop",
+  "bpm": 135,
+  "device": "cuda"
+}

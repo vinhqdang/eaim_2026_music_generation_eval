@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_027",
+  "prompt": "metal, 62 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",
+  "seed": 1,
+  "genre": "metal",
+  "bpm": 62,
+  "device": "cuda"
+}

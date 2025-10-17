@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_044",
+  "prompt": "reggae, 174 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",
+  "seed": 0,
+  "genre": "reggae",
+  "bpm": 174,
+  "device": "cuda"
+}

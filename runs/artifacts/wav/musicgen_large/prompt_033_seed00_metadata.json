@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_033",
+  "prompt": "blues, 92 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",
+  "seed": 0,
+  "genre": "blues",
+  "bpm": 92,
+  "device": "cuda"
+}

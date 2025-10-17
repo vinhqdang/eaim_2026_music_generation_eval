@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_055",
+  "prompt": "house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, phaser",
+  "seed": 1,
+  "genre": "house",
+  "bpm": 77,
+  "device": "cuda"
+}

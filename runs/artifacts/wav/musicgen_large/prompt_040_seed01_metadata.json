@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_040",
+  "prompt": "ambient, 74 BPM, instrumentation: acoustic guitar, vocals, structure: 32-bar standard form, distortion",
+  "seed": 1,
+  "genre": "ambient",
+  "bpm": 74,
+  "device": "cuda"
+}

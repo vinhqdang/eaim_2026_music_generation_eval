@@ -1,0 +1,601 @@
+file,model,prompt,target_bpm,tempo_bpm,tempo_stability,beat_strength,key,key_stability,tonal_strength,success
+prompt_000_seed00.wav,musicgen-small,"rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",97,,0.8502022400955304,,,,0.07588537379797944,True
+prompt_000_seed01.wav,musicgen-small,"rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",97,,0.8808432184600805,,,,0.08962958277950761,True
+prompt_000_seed02.wav,musicgen-small,"rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",97,,0.9182141085094082,,,,0.060096291536702484,True
+prompt_001_seed00.wav,musicgen-small,"electronic, 78 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, phaser",78,,0.7556307188711704,,,,0.15270025176013113,True
+prompt_001_seed01.wav,musicgen-small,"electronic, 78 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, phaser",78,,0.979541897437175,,,,0.058486945142364966,True
+prompt_001_seed02.wav,musicgen-small,"electronic, 78 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, phaser",78,,0.9839182973892849,,,,0.11850127954358591,True
+prompt_002_seed00.wav,musicgen-small,"techno, 97 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",97,,1.0,,,,0.15985395194104302,True
+prompt_002_seed01.wav,musicgen-small,"techno, 97 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",97,,1.0,,,,0.08875033933637477,True
+prompt_002_seed02.wav,musicgen-small,"techno, 97 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",97,,0.8865480812059785,,,,0.08382253294455133,True
+prompt_003_seed00.wav,musicgen-small,"dubstep, 177 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, distortion",177,,0.7666936005431176,,,,0.06716398403119561,True
+prompt_003_seed01.wav,musicgen-small,"dubstep, 177 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, distortion",177,,0.7716172163186212,,,,0.1379239110885011,True
+prompt_003_seed02.wav,musicgen-small,"dubstep, 177 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, distortion",177,,0.9009441301155482,,,,0.16848465130753,True
+prompt_004_seed00.wav,musicgen-small,"house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",180,,1.0,,,,0.19065248881963115,True
+prompt_004_seed01.wav,musicgen-small,"house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",180,,0.8856049992293737,,,,0.1344761617582787,True
+prompt_004_seed02.wav,musicgen-small,"house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",180,,0.8706613060116876,,,,0.1592772545729827,True
+prompt_005_seed00.wav,musicgen-small,"reggae, 62 BPM, instrumentation: strings, piano, structure: AABA, 8 bars each, tape saturation",62,,0.7596979234752723,,,,0.20203683142464068,True
+prompt_005_seed01.wav,musicgen-small,"reggae, 62 BPM, instrumentation: strings, piano, structure: AABA, 8 bars each, tape saturation",62,,0.9761905900563377,,,,0.2221414166765151,True
+prompt_005_seed02.wav,musicgen-small,"reggae, 62 BPM, instrumentation: strings, piano, structure: AABA, 8 bars each, tape saturation",62,,1.0,,,,0.14348182007855104,True
+prompt_006_seed00.wav,musicgen-small,"soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",155,,0.8504092050030578,,,,0.035364294220400216,True
+prompt_006_seed01.wav,musicgen-small,"soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",155,,0.7639486630602073,,,,0.05719807012100453,True
+prompt_006_seed02.wav,musicgen-small,"soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",155,,0.9999999999999998,,,,0.06882694069780415,True
+prompt_007_seed00.wav,musicgen-small,"jazz, 172 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, reverb",172,,0.9537561987377976,,,,0.3875780385416123,True
+prompt_007_seed01.wav,musicgen-small,"jazz, 172 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, reverb",172,,0.8619700440162312,,,,0.4163028825755999,True
+prompt_007_seed02.wav,musicgen-small,"jazz, 172 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, reverb",172,,0.923898077535439,,,,0.3834085649804875,True
+prompt_008_seed00.wav,musicgen-small,"trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",148,,0.8346632136573555,,,,0.09512474098453072,True
+prompt_008_seed01.wav,musicgen-small,"trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",148,,0.8595667672924727,,,,0.11584011525471705,True
+prompt_008_seed02.wav,musicgen-small,"trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",148,,0.9722443406074048,,,,0.2349905516243025,True
+prompt_009_seed00.wav,musicgen-small,"folk, 132 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",132,,1.0,,,,0.04893786429629399,True
+prompt_009_seed01.wav,musicgen-small,"folk, 132 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",132,,0.9760163463229858,,,,0.07367759186223233,True
+prompt_009_seed02.wav,musicgen-small,"folk, 132 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",132,,1.0,,,,0.05850819016582076,True
+prompt_010_seed00.wav,musicgen-small,"blues, 190 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, lo-fi texture",190,,0.9824125072269281,,,,0.14208063088915335,True
+prompt_010_seed01.wav,musicgen-small,"blues, 190 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, lo-fi texture",190,,0.9942353046048839,,,,0.18904003624169197,True
+prompt_010_seed02.wav,musicgen-small,"blues, 190 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, lo-fi texture",190,,1.0,,,,0.039495709765795306,True
+prompt_011_seed00.wav,musicgen-small,"funk, 111 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",111,,0.9799037078390115,,,,0.0405820864730706,True
+prompt_011_seed01.wav,musicgen-small,"funk, 111 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",111,,0.9612825303858323,,,,0.05685318289572994,True
+prompt_011_seed02.wav,musicgen-small,"funk, 111 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",111,,0.980173082042322,,,,0.10108980231488673,True
+prompt_012_seed00.wav,musicgen-small,"reggae, 95 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",95,,1.0,,,,0.12853755127690425,True
+prompt_012_seed01.wav,musicgen-small,"reggae, 95 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",95,,0.874616343386159,,,,0.1694685982459424,True
+prompt_012_seed02.wav,musicgen-small,"reggae, 95 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",95,,0.8373463819220183,,,,0.06498246002602936,True
+prompt_013_seed00.wav,musicgen-small,"house, 111 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",111,,0.9999999999999996,,,,0.09530244754085992,True
+prompt_013_seed01.wav,musicgen-small,"house, 111 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",111,,1.0,,,,0.025455010542407397,True
+prompt_013_seed02.wav,musicgen-small,"house, 111 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",111,,0.9999999999999996,,,,0.08878783001689883,True
+prompt_014_seed00.wav,musicgen-small,"pop, 142 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, vinyl crackle",142,,0.9060539490708807,,,,0.11366149206765042,True
+prompt_014_seed01.wav,musicgen-small,"pop, 142 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, vinyl crackle",142,,1.0,,,,0.1342578856566764,True
+prompt_014_seed02.wav,musicgen-small,"pop, 142 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, vinyl crackle",142,,1.0,,,,0.1253174558179565,True
+prompt_015_seed00.wav,musicgen-small,"reggae, 136 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, clean production",136,,1.0,,,,0.10189644555852928,True
+prompt_015_seed01.wav,musicgen-small,"reggae, 136 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, clean production",136,,1.0,,,,0.03398626895474677,True
+prompt_015_seed02.wav,musicgen-small,"reggae, 136 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, clean production",136,,1.0,,,,0.1604804765296779,True
+prompt_016_seed00.wav,musicgen-small,"drum and bass, 98 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, chorus",98,,0.9014338735301554,,,,0.15012089623461644,True
+prompt_016_seed01.wav,musicgen-small,"drum and bass, 98 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, chorus",98,,0.915740251411293,,,,0.29024843114990473,True
+prompt_016_seed02.wav,musicgen-small,"drum and bass, 98 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, chorus",98,,0.8760805311068959,,,,0.14143227742302833,True
+prompt_017_seed00.wav,musicgen-small,"electronic, 153 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, phaser",153,,0.8664682713708328,,,,0.02734720067701024,True
+prompt_017_seed01.wav,musicgen-small,"electronic, 153 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, phaser",153,,0.9061425531537838,,,,0.032783381606656836,True
+prompt_017_seed02.wav,musicgen-small,"electronic, 153 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, phaser",153,,0.9999999999999998,,,,0.0401839122941281,True
+prompt_018_seed00.wav,musicgen-small,"techno, 106 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",106,,1.0,,,,0.032086479093400344,True
+prompt_018_seed01.wav,musicgen-small,"techno, 106 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",106,,1.0,,,,0.09327118463547435,True
+prompt_018_seed02.wav,musicgen-small,"techno, 106 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",106,,1.0,,,,0.08460820380926493,True
+prompt_019_seed00.wav,musicgen-small,"drum and bass, 110 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",110,,0.9795554141662706,,,,0.06120714732624366,True
+prompt_019_seed01.wav,musicgen-small,"drum and bass, 110 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",110,,0.9921544895640559,,,,0.07667456845917375,True
+prompt_019_seed02.wav,musicgen-small,"drum and bass, 110 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",110,,0.8851952067442521,,,,0.08951982234447076,True
+prompt_020_seed00.wav,musicgen-small,"ambient, 182 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, reverb",182,,0.9270697301829208,,,,0.0389387744478602,True
+prompt_020_seed01.wav,musicgen-small,"ambient, 182 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, reverb",182,,0.8583398095381906,,,,0.2720102883043104,True
+prompt_020_seed02.wav,musicgen-small,"ambient, 182 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, reverb",182,,0.8389465217963558,,,,0.3199596373760758,True
+prompt_021_seed00.wav,musicgen-small,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, vinyl crackle",77,,0.9999999999999998,,,,0.19271894945680212,True
+prompt_021_seed01.wav,musicgen-small,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, vinyl crackle",77,,0.9771720569535599,,,,0.18863997656939657,True
+prompt_021_seed02.wav,musicgen-small,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, vinyl crackle",77,,0.7556162779633755,,,,0.1716882033077496,True
+prompt_022_seed00.wav,musicgen-small,"reggae, 175 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, lo-fi texture",175,,0.7787881904274634,,,,0.06484388879718417,True
+prompt_022_seed01.wav,musicgen-small,"reggae, 175 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, lo-fi texture",175,,0.879792859049152,,,,0.051217629732729586,True
+prompt_022_seed02.wav,musicgen-small,"reggae, 175 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, lo-fi texture",175,,0.7697064954450797,,,,0.12550464820512308,True
+prompt_023_seed00.wav,musicgen-small,"house, 106 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",106,,1.0,,,,0.07826083889016189,True
+prompt_023_seed01.wav,musicgen-small,"house, 106 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",106,,1.0,,,,0.02474460895600694,True
+prompt_023_seed02.wav,musicgen-small,"house, 106 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",106,,1.0,,,,0.025717935428932526,True
+prompt_024_seed00.wav,musicgen-small,"rock, 94 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, phaser",94,,0.7709297388648858,,,,0.10437705338194059,True
+prompt_024_seed01.wav,musicgen-small,"rock, 94 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, phaser",94,,0.97628182157487,,,,0.09168060917310639,True
+prompt_024_seed02.wav,musicgen-small,"rock, 94 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, phaser",94,,0.7438031466379762,,,,0.028100380311341766,True
+prompt_025_seed00.wav,musicgen-small,"funk, 79 BPM, instrumentation: strings, piano, structure: intro-A-B-A, phaser",79,,0.9705779204470545,,,,0.059000212360846405,True
+prompt_025_seed01.wav,musicgen-small,"funk, 79 BPM, instrumentation: strings, piano, structure: intro-A-B-A, phaser",79,,0.7402375144116825,,,,0.06897876740230469,True
+prompt_025_seed02.wav,musicgen-small,"funk, 79 BPM, instrumentation: strings, piano, structure: intro-A-B-A, phaser",79,,0.7472028996513889,,,,0.09638588312897689,True
+prompt_026_seed00.wav,musicgen-small,"pop, 158 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",158,,0.974782573009764,,,,0.17649065737315084,True
+prompt_026_seed01.wav,musicgen-small,"pop, 158 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",158,,0.9652946112480789,,,,0.32295438367699125,True
+prompt_026_seed02.wav,musicgen-small,"pop, 158 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",158,,0.9999999999999996,,,,0.09156331580880206,True
+prompt_027_seed00.wav,musicgen-small,"metal, 62 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",62,,1.0,,,,0.0967553562497172,True
+prompt_027_seed01.wav,musicgen-small,"metal, 62 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",62,,0.8611795517100435,,,,0.09947468206142218,True
+prompt_027_seed02.wav,musicgen-small,"metal, 62 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",62,,0.9654354430357848,,,,0.2048523432058177,True
+prompt_028_seed00.wav,musicgen-small,"drum and bass, 111 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",111,,0.9999999999999996,,,,0.05970492340211975,True
+prompt_028_seed01.wav,musicgen-small,"drum and bass, 111 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",111,,0.8939136013203717,,,,0.0871910263859359,True
+prompt_028_seed02.wav,musicgen-small,"drum and bass, 111 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",111,,0.9999999999999996,,,,0.04847385382770064,True
+prompt_029_seed00.wav,musicgen-small,"drum and bass, 200 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",200,,1.0,,,,0.12010158772160184,True
+prompt_029_seed01.wav,musicgen-small,"drum and bass, 200 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",200,,1.0,,,,0.16061572936033697,True
+prompt_029_seed02.wav,musicgen-small,"drum and bass, 200 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",200,,0.945376969083916,,,,0.0534711341361348,True
+prompt_030_seed00.wav,musicgen-small,"folk, 191 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",191,,0.8701954728474562,,,,0.027982458726630743,True
+prompt_030_seed01.wav,musicgen-small,"folk, 191 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",191,,1.0,,,,0.029392301104290808,True
+prompt_030_seed02.wav,musicgen-small,"folk, 191 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",191,,1.0,,,,0.02528283167815215,True
+prompt_031_seed00.wav,musicgen-small,"funk, 67 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, chorus",67,,0.7649904359559584,,,,0.2208063616534478,True
+prompt_031_seed01.wav,musicgen-small,"funk, 67 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, chorus",67,,0.8166941038321887,,,,0.1694170220819361,True
+prompt_031_seed02.wav,musicgen-small,"funk, 67 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, chorus",67,,1.0,,,,0.06269096916310812,True
+prompt_032_seed00.wav,musicgen-small,"blues, 108 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, vinyl crackle",108,,0.9934890398383597,,,,0.1191194738813608,True
+prompt_032_seed01.wav,musicgen-small,"blues, 108 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, vinyl crackle",108,,1.0,,,,0.17657529178699782,True
+prompt_032_seed02.wav,musicgen-small,"blues, 108 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, vinyl crackle",108,,1.0,,,,0.1318584803378594,True
+prompt_033_seed00.wav,musicgen-small,"blues, 92 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",92,,0.9964542279856062,,,,0.22380756222850728,True
+prompt_033_seed01.wav,musicgen-small,"blues, 92 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",92,,0.7721950251118562,,,,0.16925148804432133,True
+prompt_033_seed02.wav,musicgen-small,"blues, 92 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",92,,0.7603131656990881,,,,0.15522174338353034,True
+prompt_034_seed00.wav,musicgen-small,"jazz, 98 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",98,,0.9904762221440813,,,,0.19925834453328084,True
+prompt_034_seed01.wav,musicgen-small,"jazz, 98 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",98,,0.901986356948562,,,,0.30886113369070634,True
+prompt_034_seed02.wav,musicgen-small,"jazz, 98 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",98,,1.0,,,,0.16907557423724595,True
+prompt_035_seed00.wav,musicgen-small,"drum and bass, 177 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, echo",177,,0.7924311820352681,,,,0.08611574752339435,True
+prompt_035_seed01.wav,musicgen-small,"drum and bass, 177 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, echo",177,,0.8677373276200225,,,,0.126145664091167,True
+prompt_035_seed02.wav,musicgen-small,"drum and bass, 177 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, echo",177,,0.806912131550361,,,,0.1075334745014842,True
+prompt_036_seed00.wav,musicgen-small,"drum and bass, 73 BPM, instrumentation: saxophone, piano, bass, drums, structure: AABA, 8 bars each, reverb",73,,1.0,,,,0.10544574279240182,True
+prompt_036_seed01.wav,musicgen-small,"drum and bass, 73 BPM, instrumentation: saxophone, piano, bass, drums, structure: AABA, 8 bars each, reverb",73,,0.7799087328634564,,,,0.1850612496180467,True
+prompt_036_seed02.wav,musicgen-small,"drum and bass, 73 BPM, instrumentation: saxophone, piano, bass, drums, structure: AABA, 8 bars each, reverb",73,,0.7616197969482806,,,,0.16168459753657616,True
+prompt_037_seed00.wav,musicgen-small,"funk, 80 BPM, instrumentation: saxophone, piano, bass, drums, structure: 32-bar standard form, chorus",80,,0.796832389064369,,,,0.07784372103303094,True
+prompt_037_seed01.wav,musicgen-small,"funk, 80 BPM, instrumentation: saxophone, piano, bass, drums, structure: 32-bar standard form, chorus",80,,0.8236226765129698,,,,0.0761531100503573,True
+prompt_037_seed02.wav,musicgen-small,"funk, 80 BPM, instrumentation: saxophone, piano, bass, drums, structure: 32-bar standard form, chorus",80,,0.8138092348599866,,,,0.07647817450510563,True
+prompt_038_seed00.wav,musicgen-small,"rock, 67 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, tape saturation",67,,0.9773563006456927,,,,0.21015331772451884,True
+prompt_038_seed01.wav,musicgen-small,"rock, 67 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, tape saturation",67,,1.0,,,,0.22893297487979003,True
+prompt_038_seed02.wav,musicgen-small,"rock, 67 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, tape saturation",67,,0.9061288383313285,,,,0.07209788845321641,True
+prompt_039_seed00.wav,musicgen-small,"folk, 103 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, chorus",103,,1.0,,,,0.0747082395520422,True
+prompt_039_seed01.wav,musicgen-small,"folk, 103 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, chorus",103,,0.9863185481306174,,,,0.14254649090064564,True
+prompt_039_seed02.wav,musicgen-small,"folk, 103 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, chorus",103,,1.0,,,,0.06398598186249582,True
+prompt_040_seed00.wav,musicgen-small,"ambient, 74 BPM, instrumentation: acoustic guitar, vocals, structure: 32-bar standard form, distortion",74,,0.7531623278746723,,,,0.23918353349740262,True
+prompt_040_seed01.wav,musicgen-small,"ambient, 74 BPM, instrumentation: acoustic guitar, vocals, structure: 32-bar standard form, distortion",74,,0.9722656732485385,,,,0.2526562708109614,True
+prompt_040_seed02.wav,musicgen-small,"ambient, 74 BPM, instrumentation: acoustic guitar, vocals, structure: 32-bar standard form, distortion",74,,0.9258310380931131,,,,0.2546539384979223,True
+prompt_041_seed00.wav,musicgen-small,"trap, 62 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",62,,1.0,,,,0.10863329719948356,True
+prompt_041_seed01.wav,musicgen-small,"trap, 62 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",62,,1.0,,,,0.24228679895344885,True
+prompt_041_seed02.wav,musicgen-small,"trap, 62 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",62,,1.0,,,,0.16818764848911283,True
+prompt_042_seed00.wav,musicgen-small,"blues, 176 BPM, instrumentation: strings, piano, structure: 32-bar standard form, chorus",176,,0.748178157528858,,,,0.08920550232713953,True
+prompt_042_seed01.wav,musicgen-small,"blues, 176 BPM, instrumentation: strings, piano, structure: 32-bar standard form, chorus",176,,1.0,,,,0.07242937956649864,True
+prompt_042_seed02.wav,musicgen-small,"blues, 176 BPM, instrumentation: strings, piano, structure: 32-bar standard form, chorus",176,,0.9999999999999996,,,,0.09628409876496469,True
+prompt_043_seed00.wav,musicgen-small,"soul, 72 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, bit-crush",72,,0.7499091903115129,,,,0.20889010110085515,True
+prompt_043_seed01.wav,musicgen-small,"soul, 72 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, bit-crush",72,,1.0,,,,0.1844269685358293,True
+prompt_043_seed02.wav,musicgen-small,"soul, 72 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, bit-crush",72,,1.0,,,,0.09125930723224762,True
+prompt_044_seed00.wav,musicgen-small,"reggae, 174 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",174,,0.8430748301569558,,,,0.06868319623412089,True
+prompt_044_seed01.wav,musicgen-small,"reggae, 174 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",174,,0.9306848377972267,,,,0.1474670824318003,True
+prompt_044_seed02.wav,musicgen-small,"reggae, 174 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",174,,0.8476778875006448,,,,0.06360268727429641,True
+prompt_045_seed00.wav,musicgen-small,"folk, 70 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, vinyl crackle",70,,1.0,,,,0.24098802040611944,True
+prompt_045_seed01.wav,musicgen-small,"folk, 70 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, vinyl crackle",70,,0.9736763184980074,,,,0.23207792754593748,True
+prompt_045_seed02.wav,musicgen-small,"folk, 70 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, vinyl crackle",70,,0.9999999999999998,,,,0.3052127435419081,True
+prompt_046_seed00.wav,musicgen-small,"jazz, 91 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, chorus",91,,0.9470224530017712,,,,0.18614461960423345,True
+prompt_046_seed01.wav,musicgen-small,"jazz, 91 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, chorus",91,,0.7438031466379762,,,,0.18801099067078064,True
+prompt_046_seed02.wav,musicgen-small,"jazz, 91 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, chorus",91,,0.9844187606220289,,,,0.19011856122973914,True
+prompt_047_seed00.wav,musicgen-small,"dubstep, 67 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, reverb",67,,0.863154954367759,,,,0.05369227521988573,True
+prompt_047_seed01.wav,musicgen-small,"dubstep, 67 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, reverb",67,,1.0,,,,0.2508862721289965,True
+prompt_047_seed02.wav,musicgen-small,"dubstep, 67 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, reverb",67,,1.0,,,,0.12034226277126747,True
+prompt_048_seed00.wav,musicgen-small,"soul, 79 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, distortion",79,,0.8382583008422918,,,,0.07364988370515191,True
+prompt_048_seed01.wav,musicgen-small,"soul, 79 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, distortion",79,,0.7303270334142291,,,,0.12260950938853954,True
+prompt_048_seed02.wav,musicgen-small,"soul, 79 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, distortion",79,,0.7345623106119165,,,,0.18920186522434534,True
+prompt_049_seed00.wav,musicgen-small,"classical piano, 159 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, clean production",159,,0.9896368400643534,,,,0.24624213685840002,True
+prompt_049_seed01.wav,musicgen-small,"classical piano, 159 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, clean production",159,,0.8771141445443612,,,,0.2829019241093641,True
+prompt_049_seed02.wav,musicgen-small,"classical piano, 159 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, clean production",159,,0.9560088750855545,,,,0.2937059252562545,True
+prompt_050_seed00.wav,musicgen-small,"reggae, 98 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",98,,1.0,,,,0.11485388758060178,True
+prompt_050_seed01.wav,musicgen-small,"reggae, 98 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",98,,0.8691250793361155,,,,0.05085604413164313,True
+prompt_050_seed02.wav,musicgen-small,"reggae, 98 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",98,,0.8767305426304555,,,,0.0479187282013952,True
+prompt_051_seed00.wav,musicgen-small,"soul, 180 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, lo-fi texture",180,,0.8613783604472048,,,,0.31972750701606945,True
+prompt_051_seed01.wav,musicgen-small,"soul, 180 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, lo-fi texture",180,,0.784478846021435,,,,0.3750312538055567,True
+prompt_051_seed02.wav,musicgen-small,"soul, 180 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, lo-fi texture",180,,0.8357960072474226,,,,0.3691969679650251,True
+prompt_052_seed00.wav,musicgen-small,"classical piano, 62 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, clean production",62,,0.7443063618209561,,,,0.24201778650128458,True
+prompt_052_seed01.wav,musicgen-small,"classical piano, 62 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, clean production",62,,0.7584114389747807,,,,0.3542516298019872,True
+prompt_052_seed02.wav,musicgen-small,"classical piano, 62 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, clean production",62,,0.7451358626791301,,,,0.20466173562388523,True
+prompt_053_seed00.wav,musicgen-small,"trap, 119 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, lo-fi texture",119,,0.661445234864092,,,,0.11717792419022932,True
+prompt_053_seed01.wav,musicgen-small,"trap, 119 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, lo-fi texture",119,,0.6895242141820936,,,,0.24932438638979038,True
+prompt_053_seed02.wav,musicgen-small,"trap, 119 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, lo-fi texture",119,,0.7491725935629552,,,,0.22074466634425538,True
+prompt_054_seed00.wav,musicgen-small,"funk, 135 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, tape saturation",135,,1.0,,,,0.03937088066289862,True
+prompt_054_seed01.wav,musicgen-small,"funk, 135 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, tape saturation",135,,1.0,,,,0.07639996559942674,True
+prompt_054_seed02.wav,musicgen-small,"funk, 135 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, tape saturation",135,,0.8568513530144586,,,,0.10432682765912693,True
+prompt_055_seed00.wav,musicgen-small,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, phaser",77,,1.0,,,,0.1388819300341002,True
+prompt_055_seed01.wav,musicgen-small,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, phaser",77,,0.8842806342504743,,,,0.3151866436375209,True
+prompt_055_seed02.wav,musicgen-small,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, phaser",77,,0.9883455454640019,,,,0.17538555525287025,True
+prompt_056_seed00.wav,musicgen-small,"metal, 63 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",63,,0.8185274666572602,,,,0.17061311580345462,True
+prompt_056_seed01.wav,musicgen-small,"metal, 63 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",63,,1.0,,,,0.0937709495128628,True
+prompt_056_seed02.wav,musicgen-small,"metal, 63 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",63,,0.978450332190008,,,,0.08539128767171766,True
+prompt_057_seed00.wav,musicgen-small,"trap, 112 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",112,,0.9999999999999996,,,,0.265709901034733,True
+prompt_057_seed01.wav,musicgen-small,"trap, 112 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",112,,0.9829696591862452,,,,0.25689535735776214,True
+prompt_057_seed02.wav,musicgen-small,"trap, 112 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",112,,0.7717637007723215,,,,0.08389107532337814,True
+prompt_058_seed00.wav,musicgen-small,"pop, 178 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",178,,0.7476468091186744,,,,0.05603749289455073,True
+prompt_058_seed01.wav,musicgen-small,"pop, 178 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",178,,0.8614361893818769,,,,0.09863520359049138,True
+prompt_058_seed02.wav,musicgen-small,"pop, 178 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",178,,0.926921798217399,,,,0.06977383513084723,True
+prompt_059_seed00.wav,musicgen-small,"jazz, 131 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, bit-crush",131,,0.9481173777764857,,,,0.11859458517107246,True
+prompt_059_seed01.wav,musicgen-small,"jazz, 131 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, bit-crush",131,,0.977089627246391,,,,0.26117231786607165,True
+prompt_059_seed02.wav,musicgen-small,"jazz, 131 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, bit-crush",131,,1.0,,,,0.13128724368078726,True
+prompt_060_seed00.wav,musicgen-small,"lo-fi hip-hop, 113 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: AABA, 8 bars each, lo-fi texture",113,,0.9999999999999996,,,,0.13742789197223837,True
+prompt_060_seed01.wav,musicgen-small,"lo-fi hip-hop, 113 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: AABA, 8 bars each, lo-fi texture",113,,0.9999999999999996,,,,0.09766160114013023,True
+prompt_060_seed02.wav,musicgen-small,"lo-fi hip-hop, 113 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: AABA, 8 bars each, lo-fi texture",113,,0.9999999999999996,,,,0.07977158465652878,True
+prompt_061_seed00.wav,musicgen-small,"house, 62 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",62,,1.0,,,,0.09189251648300978,True
+prompt_061_seed01.wav,musicgen-small,"house, 62 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",62,,1.0,,,,0.29796147927525773,True
+prompt_061_seed02.wav,musicgen-small,"house, 62 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",62,,1.0,,,,0.03632655828304743,True
+prompt_062_seed00.wav,musicgen-small,"electronic, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, clean production",103,,0.9789718724246962,,,,0.03378574296433412,True
+prompt_062_seed01.wav,musicgen-small,"electronic, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, clean production",103,,1.0,,,,0.14112129991258704,True
+prompt_062_seed02.wav,musicgen-small,"electronic, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, clean production",103,,1.0,,,,0.09687364363627904,True
+prompt_063_seed00.wav,musicgen-small,"electronic, 71 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",71,,1.0,,,,0.10819496011815555,True
+prompt_063_seed01.wav,musicgen-small,"electronic, 71 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",71,,1.0,,,,0.2622938354614681,True
+prompt_063_seed02.wav,musicgen-small,"electronic, 71 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",71,,1.0,,,,0.1471926188931949,True
+prompt_064_seed00.wav,musicgen-small,"folk, 154 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, reverb",154,,0.9999999999999998,,,,0.08179580557294686,True
+prompt_064_seed01.wav,musicgen-small,"folk, 154 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, reverb",154,,0.7637036197406344,,,,0.0389960240978815,True
+prompt_064_seed02.wav,musicgen-small,"folk, 154 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, reverb",154,,0.9999999999999998,,,,0.030277437819806075,True
+prompt_065_seed00.wav,musicgen-small,"trap, 117 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, echo",117,,1.0,,,,0.09688120653760135,True
+prompt_065_seed01.wav,musicgen-small,"trap, 117 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, echo",117,,1.0,,,,0.14132210758141162,True
+prompt_065_seed02.wav,musicgen-small,"trap, 117 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, echo",117,,0.9893451322701187,,,,0.21156849320162918,True
+prompt_066_seed00.wav,musicgen-small,"ambient, 113 BPM, instrumentation: strings, piano, structure: 32-bar standard form, vinyl crackle",113,,0.9412990531382887,,,,0.29944792930015574,True
+prompt_066_seed01.wav,musicgen-small,"ambient, 113 BPM, instrumentation: strings, piano, structure: 32-bar standard form, vinyl crackle",113,,0.9999999999999996,,,,0.39429850452166004,True
+prompt_066_seed02.wav,musicgen-small,"ambient, 113 BPM, instrumentation: strings, piano, structure: 32-bar standard form, vinyl crackle",113,,0.9585064394987965,,,,0.3190507318667982,True
+prompt_067_seed00.wav,musicgen-small,"pop, 135 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, distortion",135,,0.8265349210278463,,,,0.06512233065870798,True
+prompt_067_seed01.wav,musicgen-small,"pop, 135 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, distortion",135,,1.0,,,,0.03678258558983516,True
+prompt_067_seed02.wav,musicgen-small,"pop, 135 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, distortion",135,,0.9275379793793193,,,,0.12501425301984703,True
+prompt_068_seed00.wav,musicgen-small,"rock, 96 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, chorus",96,,0.988722209433015,,,,0.16472984574796468,True
+prompt_068_seed01.wav,musicgen-small,"rock, 96 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, chorus",96,,0.9038459758055154,,,,0.10484477252599389,True
+prompt_068_seed02.wav,musicgen-small,"rock, 96 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, chorus",96,,1.0,,,,0.07546992838704836,True
+prompt_069_seed00.wav,musicgen-small,"house, 90 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",90,,0.7412238291099109,,,,0.17924838952177613,True
+prompt_069_seed01.wav,musicgen-small,"house, 90 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",90,,0.8980083619682693,,,,0.10995727456948412,True
+prompt_069_seed02.wav,musicgen-small,"house, 90 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",90,,1.0,,,,0.10115213898256914,True
+prompt_070_seed00.wav,musicgen-small,"folk, 68 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",68,,0.8249574613413123,,,,0.100185105481848,True
+prompt_070_seed01.wav,musicgen-small,"folk, 68 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",68,,0.9594236891044292,,,,0.1812740553657579,True
+prompt_070_seed02.wav,musicgen-small,"folk, 68 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",68,,0.9816079461685016,,,,0.16602191448198156,True
+prompt_071_seed00.wav,musicgen-small,"funk, 160 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, phaser",160,,0.7407015541805392,,,,0.02649334669881065,True
+prompt_071_seed01.wav,musicgen-small,"funk, 160 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, phaser",160,,0.8338098272582178,,,,0.13036316280695448,True
+prompt_071_seed02.wav,musicgen-small,"funk, 160 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, phaser",160,,1.0,,,,0.11964230972739509,True
+prompt_072_seed00.wav,musicgen-small,"lo-fi hip-hop, 131 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, echo",131,,0.9751709170898651,,,,0.14383119152914348,True
+prompt_072_seed01.wav,musicgen-small,"lo-fi hip-hop, 131 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, echo",131,,1.0,,,,0.1288288553789786,True
+prompt_072_seed02.wav,musicgen-small,"lo-fi hip-hop, 131 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, echo",131,,0.9198295305225211,,,,0.10674409771440296,True
+prompt_073_seed00.wav,musicgen-small,"rock, 189 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",189,,0.8739008073468504,,,,0.08811354556631756,True
+prompt_073_seed01.wav,musicgen-small,"rock, 189 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",189,,0.74094559497073,,,,0.10946403336397315,True
+prompt_073_seed02.wav,musicgen-small,"rock, 189 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",189,,0.9703497270354715,,,,0.06970237074590724,True
+prompt_074_seed00.wav,musicgen-small,"dubstep, 98 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, clean production",98,,0.7505386179209205,,,,0.06186211727769764,True
+prompt_074_seed01.wav,musicgen-small,"dubstep, 98 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, clean production",98,,0.9199390588559493,,,,0.12499977888195424,True
+prompt_074_seed02.wav,musicgen-small,"dubstep, 98 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, clean production",98,,0.7484490134055496,,,,0.10461547390487613,True
+prompt_075_seed00.wav,musicgen-small,"jazz, 101 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",101,,0.884257421443983,,,,0.23857586515058116,True
+prompt_075_seed01.wav,musicgen-small,"jazz, 101 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",101,,0.8236767764894039,,,,0.15614864425820874,True
+prompt_075_seed02.wav,musicgen-small,"jazz, 101 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",101,,0.931254822525834,,,,0.10083773518408479,True
+prompt_076_seed00.wav,musicgen-small,"techno, 151 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",151,,0.9999999999999998,,,,0.11404842261974235,True
+prompt_076_seed01.wav,musicgen-small,"techno, 151 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",151,,0.8714982581316068,,,,0.07906882198700593,True
+prompt_076_seed02.wav,musicgen-small,"techno, 151 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",151,,0.9999999999999998,,,,0.048619601282457126,True
+prompt_077_seed00.wav,musicgen-small,"rock, 180 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, lo-fi texture",180,,0.9774765822703677,,,,0.10770728629398285,True
+prompt_077_seed01.wav,musicgen-small,"rock, 180 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, lo-fi texture",180,,0.9784842239633779,,,,0.24338358025720053,True
+prompt_077_seed02.wav,musicgen-small,"rock, 180 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, lo-fi texture",180,,0.8927432340753356,,,,0.21298995282058852,True
+prompt_078_seed00.wav,musicgen-small,"soul, 103 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, echo",103,,1.0,,,,0.06330681174083552,True
+prompt_078_seed01.wav,musicgen-small,"soul, 103 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, echo",103,,0.903486990761576,,,,0.14287493016888486,True
+prompt_078_seed02.wav,musicgen-small,"soul, 103 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, echo",103,,0.9410789256890489,,,,0.14668393507114075,True
+prompt_079_seed00.wav,musicgen-small,"soul, 142 BPM, instrumentation: strings, piano, structure: intro-A-B-A, clean production",142,,0.9755415803385025,,,,0.32463817122817784,True
+prompt_079_seed01.wav,musicgen-small,"soul, 142 BPM, instrumentation: strings, piano, structure: intro-A-B-A, clean production",142,,1.0,,,,0.10077482942128058,True
+prompt_079_seed02.wav,musicgen-small,"soul, 142 BPM, instrumentation: strings, piano, structure: intro-A-B-A, clean production",142,,0.9804340488284631,,,,0.3117163220489454,True
+prompt_080_seed00.wav,musicgen-small,"trap, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",103,,1.0,,,,0.09512490549946395,True
+prompt_080_seed01.wav,musicgen-small,"trap, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",103,,0.7608960565628332,,,,0.06516921800680575,True
+prompt_080_seed02.wav,musicgen-small,"trap, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",103,,0.8906821483356459,,,,0.10437420810289966,True
+prompt_081_seed00.wav,musicgen-small,"pop, 106 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, chorus",106,,0.7980312970979084,,,,0.13443362885296117,True
+prompt_081_seed01.wav,musicgen-small,"pop, 106 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, chorus",106,,0.9833322413913369,,,,0.18519702540527438,True
+prompt_081_seed02.wav,musicgen-small,"pop, 106 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, chorus",106,,0.985686442037227,,,,0.22192811880235752,True
+prompt_082_seed00.wav,musicgen-small,"drum and bass, 146 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, reverb",146,,0.7527343436927818,,,,0.07719672067023531,True
+prompt_082_seed01.wav,musicgen-small,"drum and bass, 146 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, reverb",146,,0.874799200112256,,,,0.06786381536794261,True
+prompt_082_seed02.wav,musicgen-small,"drum and bass, 146 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, reverb",146,,0.8051807431869094,,,,0.06474603918993205,True
+prompt_083_seed00.wav,musicgen-small,"pop, 115 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",115,,0.9873266366863374,,,,0.10367047706079213,True
+prompt_083_seed01.wav,musicgen-small,"pop, 115 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",115,,1.0,,,,0.13983646096501334,True
+prompt_083_seed02.wav,musicgen-small,"pop, 115 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",115,,0.9999999999999996,,,,0.08026330931127523,True
+prompt_084_seed00.wav,musicgen-small,"folk, 105 BPM, instrumentation: strings, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",105,,0.9934641151516668,,,,0.26642753803884023,True
+prompt_084_seed01.wav,musicgen-small,"folk, 105 BPM, instrumentation: strings, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",105,,1.0,,,,0.1469306111308325,True
+prompt_084_seed02.wav,musicgen-small,"folk, 105 BPM, instrumentation: strings, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",105,,0.9887609122740589,,,,0.22834159215545646,True
+prompt_085_seed00.wav,musicgen-small,"classical piano, 112 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, clean production",112,,0.9648222183657202,,,,0.33059445050241787,True
+prompt_085_seed01.wav,musicgen-small,"classical piano, 112 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, clean production",112,,0.9999999999999996,,,,0.35793166500296203,True
+prompt_085_seed02.wav,musicgen-small,"classical piano, 112 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, clean production",112,,0.9843698348003259,,,,0.38224476460423895,True
+prompt_086_seed00.wav,musicgen-small,"soul, 110 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, distortion",110,,0.9802284788205894,,,,0.4254996683678631,True
+prompt_086_seed01.wav,musicgen-small,"soul, 110 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, distortion",110,,0.9420577938788924,,,,0.37586870805782446,True
+prompt_086_seed02.wav,musicgen-small,"soul, 110 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, distortion",110,,0.9561772585357524,,,,0.4268692511097577,True
+prompt_087_seed00.wav,musicgen-small,"lo-fi hip-hop, 115 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, distortion",115,,0.9836006780980249,,,,0.06471114207018014,True
+prompt_087_seed01.wav,musicgen-small,"lo-fi hip-hop, 115 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, distortion",115,,0.984076735793965,,,,0.06868140188975946,True
+prompt_087_seed02.wav,musicgen-small,"lo-fi hip-hop, 115 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, distortion",115,,0.9850544171708794,,,,0.08773910343129154,True
+prompt_088_seed00.wav,musicgen-small,"dubstep, 119 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",119,,0.9774132116137123,,,,0.18709242117477587,True
+prompt_088_seed01.wav,musicgen-small,"dubstep, 119 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",119,,1.0,,,,0.14384637678932055,True
+prompt_088_seed02.wav,musicgen-small,"dubstep, 119 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",119,,0.8275553308892091,,,,0.08823129361365822,True
+prompt_089_seed00.wav,musicgen-small,"rock, 160 BPM, instrumentation: violin, cello, piano, structure: AABA, 8 bars each, chorus",160,,1.0,,,,0.2933594926676719,True
+prompt_089_seed01.wav,musicgen-small,"rock, 160 BPM, instrumentation: violin, cello, piano, structure: AABA, 8 bars each, chorus",160,,1.0,,,,0.16398017055732395,True
+prompt_089_seed02.wav,musicgen-small,"rock, 160 BPM, instrumentation: violin, cello, piano, structure: AABA, 8 bars each, chorus",160,,0.8445212223153042,,,,0.26136434210247783,True
+prompt_090_seed00.wav,musicgen-small,"house, 113 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, chorus",113,,0.9999999999999996,,,,0.12071118935564518,True
+prompt_090_seed01.wav,musicgen-small,"house, 113 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, chorus",113,,0.9999999999999996,,,,0.060299030266846576,True
+prompt_090_seed02.wav,musicgen-small,"house, 113 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, chorus",113,,0.9999999999999996,,,,0.19510411081198376,True
+prompt_091_seed00.wav,musicgen-small,"drum and bass, 154 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",154,,0.8853328625613616,,,,0.1361506162603311,True
+prompt_091_seed01.wav,musicgen-small,"drum and bass, 154 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",154,,0.9235653305008538,,,,0.08716425727974131,True
+prompt_091_seed02.wav,musicgen-small,"drum and bass, 154 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",154,,0.8408334997709734,,,,0.1425831905597421,True
+prompt_092_seed00.wav,musicgen-small,"dubstep, 144 BPM, instrumentation: violin, cello, piano, structure: 4-bar intro, 32-bar development, distortion",144,,1.0,,,,0.10439834260349112,True
+prompt_092_seed01.wav,musicgen-small,"dubstep, 144 BPM, instrumentation: violin, cello, piano, structure: 4-bar intro, 32-bar development, distortion",144,,1.0,,,,0.1320625305029599,True
+prompt_092_seed02.wav,musicgen-small,"dubstep, 144 BPM, instrumentation: violin, cello, piano, structure: 4-bar intro, 32-bar development, distortion",144,,0.8305317965411462,,,,0.19094251419886166,True
+prompt_093_seed00.wav,musicgen-small,"classical piano, 140 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, lo-fi texture",140,,0.8637276054491844,,,,0.2861394375329024,True
+prompt_093_seed01.wav,musicgen-small,"classical piano, 140 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, lo-fi texture",140,,0.9095350555532457,,,,0.3307554714803753,True
+prompt_093_seed02.wav,musicgen-small,"classical piano, 140 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, lo-fi texture",140,,0.9742731937517499,,,,0.2767532066128665,True
+prompt_094_seed00.wav,musicgen-small,"trap, 102 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, echo",102,,1.0,,,,0.1854714649624818,True
+prompt_094_seed01.wav,musicgen-small,"trap, 102 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, echo",102,,1.0,,,,0.17962832281613061,True
+prompt_094_seed02.wav,musicgen-small,"trap, 102 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, echo",102,,1.0,,,,0.06973637919528652,True
+prompt_095_seed00.wav,musicgen-small,"electronic, 180 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, bit-crush",180,,0.745126441540788,,,,0.09199198657902818,True
+prompt_095_seed01.wav,musicgen-small,"electronic, 180 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, bit-crush",180,,0.7746127967902092,,,,0.0712932827064181,True
+prompt_095_seed02.wav,musicgen-small,"electronic, 180 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, bit-crush",180,,0.7773868516783861,,,,0.06376034762056881,True
+prompt_096_seed00.wav,musicgen-small,"trap, 116 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, vinyl crackle",116,,1.0,,,,0.255589206219452,True
+prompt_096_seed01.wav,musicgen-small,"trap, 116 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, vinyl crackle",116,,1.0,,,,0.1074282286541598,True
+prompt_096_seed02.wav,musicgen-small,"trap, 116 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, vinyl crackle",116,,1.0,,,,0.11655431130426253,True
+prompt_097_seed00.wav,musicgen-small,"techno, 185 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",185,,0.7433021538990134,,,,0.11535915224112092,True
+prompt_097_seed01.wav,musicgen-small,"techno, 185 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",185,,0.7295767935215502,,,,0.015878802183507457,True
+prompt_097_seed02.wav,musicgen-small,"techno, 185 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",185,,1.0,,,,0.1507561806803146,True
+prompt_098_seed00.wav,musicgen-small,"lo-fi hip-hop, 187 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",187,,0.7739421177205652,,,,0.031115673849267722,True
+prompt_098_seed01.wav,musicgen-small,"lo-fi hip-hop, 187 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",187,,0.7819900797005428,,,,0.08326657474767785,True
+prompt_098_seed02.wav,musicgen-small,"lo-fi hip-hop, 187 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",187,,0.7456252292405259,,,,0.05656082297385767,True
+prompt_099_seed00.wav,musicgen-small,"trap, 143 BPM, instrumentation: synthesizer, bass, drums, structure: 32-bar standard form, distortion",143,,0.882775589398023,,,,0.10483170009653364,True
+prompt_099_seed01.wav,musicgen-small,"trap, 143 BPM, instrumentation: synthesizer, bass, drums, structure: 32-bar standard form, distortion",143,,1.0,,,,0.11017815419749721,True
+prompt_099_seed02.wav,musicgen-small,"trap, 143 BPM, instrumentation: synthesizer, bass, drums, structure: 32-bar standard form, distortion",143,,1.0,,,,0.17579166382221134,True
+prompt_000_seed00.wav,musicgen-medium,"rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",97,,1.0,,,,0.10386983076639156,True
+prompt_000_seed01.wav,musicgen-medium,"rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",97,,0.8884444479253832,,,,0.05727648604954272,True
+prompt_000_seed02.wav,musicgen-medium,"rock, 97 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",97,,0.9919708990842238,,,,0.13407216466968608,True
+prompt_001_seed00.wav,musicgen-medium,"electronic, 78 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, phaser",78,,1.0,,,,0.1546560922802468,True
+prompt_001_seed01.wav,musicgen-medium,"electronic, 78 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, phaser",78,,0.8663967543794556,,,,0.10200327402678155,True
+prompt_001_seed02.wav,musicgen-medium,"electronic, 78 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, phaser",78,,0.8599534054041801,,,,0.12537521277540642,True
+prompt_002_seed00.wav,musicgen-medium,"techno, 97 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",97,,1.0,,,,0.061051752024755435,True
+prompt_002_seed01.wav,musicgen-medium,"techno, 97 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",97,,0.8081557229956935,,,,0.06360939213138683,True
+prompt_002_seed02.wav,musicgen-medium,"techno, 97 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",97,,1.0,,,,0.14002846578748362,True
+prompt_003_seed00.wav,musicgen-medium,"dubstep, 177 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, distortion",177,,0.8515691164367538,,,,0.11083544886271435,True
+prompt_003_seed01.wav,musicgen-medium,"dubstep, 177 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, distortion",177,,0.7662434575949725,,,,0.28555502811417943,True
+prompt_003_seed02.wav,musicgen-medium,"dubstep, 177 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, distortion",177,,1.0,,,,0.05729503141744807,True
+prompt_004_seed00.wav,musicgen-medium,"house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",180,,0.7748588865854821,,,,0.053810641554312255,True
+prompt_004_seed01.wav,musicgen-medium,"house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",180,,0.8728198675087452,,,,0.06679436597214772,True
+prompt_004_seed02.wav,musicgen-medium,"house, 180 BPM, instrumentation: acoustic guitar, vocals, structure: 8-bar intro, 16-bar verse, 16-bar chorus, echo",180,,0.7950741045859961,,,,0.11402427845756669,True
+prompt_005_seed00.wav,musicgen-medium,"reggae, 62 BPM, instrumentation: strings, piano, structure: AABA, 8 bars each, tape saturation",62,,0.9028901096331962,,,,0.16749936159044587,True
+prompt_005_seed01.wav,musicgen-medium,"reggae, 62 BPM, instrumentation: strings, piano, structure: AABA, 8 bars each, tape saturation",62,,1.0,,,,0.20989627280999623,True
+prompt_005_seed02.wav,musicgen-medium,"reggae, 62 BPM, instrumentation: strings, piano, structure: AABA, 8 bars each, tape saturation",62,,1.0,,,,0.3095166012843693,True
+prompt_006_seed00.wav,musicgen-medium,"soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",155,,0.9999999999999998,,,,0.0666317367874173,True
+prompt_006_seed01.wav,musicgen-medium,"soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",155,,0.8884786513437289,,,,0.1413673007415719,True
+prompt_006_seed02.wav,musicgen-medium,"soul, 155 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",155,,0.9999999999999998,,,,0.15896484474263417,True
+prompt_007_seed00.wav,musicgen-medium,"jazz, 172 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, reverb",172,,0.8465312004020554,,,,0.2788501471017223,True
+prompt_007_seed01.wav,musicgen-medium,"jazz, 172 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, reverb",172,,0.9318897573033416,,,,0.4160969183537989,True
+prompt_007_seed02.wav,musicgen-medium,"jazz, 172 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, reverb",172,,0.9461370147250006,,,,0.33278946907134754,True
+prompt_008_seed00.wav,musicgen-medium,"trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",148,,0.9999999999999998,,,,0.1479568275631874,True
+prompt_008_seed01.wav,musicgen-medium,"trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",148,,0.8547318450939548,,,,0.16018512236015958,True
+prompt_008_seed02.wav,musicgen-medium,"trap, 148 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, clean production",148,,0.9999999999999998,,,,0.12036217455992437,True
+prompt_009_seed00.wav,musicgen-medium,"folk, 132 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",132,,0.9848371007784124,,,,0.10045751994317065,True
+prompt_009_seed01.wav,musicgen-medium,"folk, 132 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",132,,1.0,,,,0.09427647035236786,True
+prompt_009_seed02.wav,musicgen-medium,"folk, 132 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",132,,1.0,,,,0.0529305647326479,True
+prompt_010_seed00.wav,musicgen-medium,"blues, 190 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, lo-fi texture",190,,0.7575704072139666,,,,0.06060990403917277,True
+prompt_010_seed01.wav,musicgen-medium,"blues, 190 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, lo-fi texture",190,,0.754024003075203,,,,0.11782834963480349,True
+prompt_010_seed02.wav,musicgen-medium,"blues, 190 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, lo-fi texture",190,,0.7861498034142222,,,,0.06776132229272191,True
+prompt_011_seed00.wav,musicgen-medium,"funk, 111 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",111,,0.8993978635957086,,,,0.19930289469706308,True
+prompt_011_seed01.wav,musicgen-medium,"funk, 111 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",111,,0.9167348169113911,,,,0.18843669969439214,True
+prompt_011_seed02.wav,musicgen-medium,"funk, 111 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",111,,1.0,,,,0.13381922664847246,True
+prompt_012_seed00.wav,musicgen-medium,"reggae, 95 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",95,,0.8313518018220388,,,,0.07564797550946345,True
+prompt_012_seed01.wav,musicgen-medium,"reggae, 95 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",95,,1.0,,,,0.12389743516859963,True
+prompt_012_seed02.wav,musicgen-medium,"reggae, 95 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",95,,1.0,,,,0.13760133513941752,True
+prompt_013_seed00.wav,musicgen-medium,"house, 111 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",111,,0.9999999999999996,,,,0.28044476810006724,True
+prompt_013_seed01.wav,musicgen-medium,"house, 111 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",111,,0.9999999999999996,,,,0.09704917926768863,True
+prompt_013_seed02.wav,musicgen-medium,"house, 111 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",111,,0.9817298357937893,,,,0.14345673581651164,True
+prompt_014_seed00.wav,musicgen-medium,"pop, 142 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, vinyl crackle",142,,0.8781032693053956,,,,0.21092018060746254,True
+prompt_014_seed01.wav,musicgen-medium,"pop, 142 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, vinyl crackle",142,,0.9737200454697791,,,,0.22200108140180674,True
+prompt_014_seed02.wav,musicgen-medium,"pop, 142 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, vinyl crackle",142,,1.0,,,,0.12903109868595397,True
+prompt_015_seed00.wav,musicgen-medium,"reggae, 136 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, clean production",136,,1.0,,,,0.0435187636919111,True
+prompt_015_seed01.wav,musicgen-medium,"reggae, 136 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, clean production",136,,1.0,,,,0.08197852913863801,True
+prompt_015_seed02.wav,musicgen-medium,"reggae, 136 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, clean production",136,,1.0,,,,0.213510859491423,True
+prompt_016_seed00.wav,musicgen-medium,"drum and bass, 98 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, chorus",98,,0.9132049012854623,,,,0.20783994072899525,True
+prompt_016_seed01.wav,musicgen-medium,"drum and bass, 98 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, chorus",98,,0.8078254994502144,,,,0.0975455854469588,True
+prompt_016_seed02.wav,musicgen-medium,"drum and bass, 98 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, chorus",98,,1.0,,,,0.08071410405451473,True
+prompt_017_seed00.wav,musicgen-medium,"electronic, 153 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, phaser",153,,1.0,,,,0.07646323608470529,True
+prompt_017_seed01.wav,musicgen-medium,"electronic, 153 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, phaser",153,,0.919428656033124,,,,0.07451649736886068,True
+prompt_017_seed02.wav,musicgen-medium,"electronic, 153 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, phaser",153,,0.9999999999999998,,,,0.1293851503089095,True
+prompt_018_seed00.wav,musicgen-medium,"techno, 106 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",106,,1.0,,,,0.10215516615463882,True
+prompt_018_seed01.wav,musicgen-medium,"techno, 106 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",106,,0.9830412876493759,,,,0.11489631757511476,True
+prompt_018_seed02.wav,musicgen-medium,"techno, 106 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",106,,1.0,,,,0.08531876504691405,True
+prompt_019_seed00.wav,musicgen-medium,"drum and bass, 110 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",110,,0.9808221046552507,,,,0.06751759768644028,True
+prompt_019_seed01.wav,musicgen-medium,"drum and bass, 110 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",110,,0.9794195235882419,,,,0.12871954387337026,True
+prompt_019_seed02.wav,musicgen-medium,"drum and bass, 110 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",110,,0.9792796851343871,,,,0.11620035496085868,True
+prompt_020_seed00.wav,musicgen-medium,"ambient, 182 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, reverb",182,,0.9703576044324069,,,,0.4089132534012726,True
+prompt_020_seed01.wav,musicgen-medium,"ambient, 182 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, reverb",182,,0.9776987920699812,,,,0.36940207521784174,True
+prompt_020_seed02.wav,musicgen-medium,"ambient, 182 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, reverb",182,,0.7953600636313627,,,,0.2490270554500965,True
+prompt_021_seed00.wav,musicgen-medium,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, vinyl crackle",77,,0.9999999999999998,,,,0.17228391251232644,True
+prompt_021_seed01.wav,musicgen-medium,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, vinyl crackle",77,,0.7537033690100065,,,,0.22224416290628635,True
+prompt_021_seed02.wav,musicgen-medium,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, vinyl crackle",77,,0.9999999999999998,,,,0.12166549531234727,True
+prompt_022_seed00.wav,musicgen-medium,"reggae, 175 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, lo-fi texture",175,,0.8438922550780996,,,,0.12305889287870708,True
+prompt_022_seed01.wav,musicgen-medium,"reggae, 175 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, lo-fi texture",175,,1.0,,,,0.1373632777335464,True
+prompt_022_seed02.wav,musicgen-medium,"reggae, 175 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, lo-fi texture",175,,1.0,,,,0.08531410047720633,True
+prompt_023_seed00.wav,musicgen-medium,"house, 106 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",106,,1.0,,,,0.09201726098692076,True
+prompt_023_seed01.wav,musicgen-medium,"house, 106 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",106,,1.0,,,,0.08373751380641337,True
+prompt_023_seed02.wav,musicgen-medium,"house, 106 BPM, instrumentation: piano, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",106,,0.9946139872997877,,,,0.021802101131062845,True
+prompt_024_seed00.wav,musicgen-medium,"rock, 94 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, phaser",94,,1.0,,,,0.0826498410653227,True
+prompt_024_seed01.wav,musicgen-medium,"rock, 94 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, phaser",94,,0.7844784305912346,,,,0.05972304852717891,True
+prompt_024_seed02.wav,musicgen-medium,"rock, 94 BPM, instrumentation: acoustic guitar, vocals, structure: 4-bar intro, 32-bar development, phaser",94,,0.9862567977809489,,,,0.04435745486097298,True
+prompt_025_seed00.wav,musicgen-medium,"funk, 79 BPM, instrumentation: strings, piano, structure: intro-A-B-A, phaser",79,,0.9710087494250983,,,,0.049101921984706975,True
+prompt_025_seed01.wav,musicgen-medium,"funk, 79 BPM, instrumentation: strings, piano, structure: intro-A-B-A, phaser",79,,0.882775589398023,,,,0.13658197022306784,True
+prompt_025_seed02.wav,musicgen-medium,"funk, 79 BPM, instrumentation: strings, piano, structure: intro-A-B-A, phaser",79,,0.9999999999999996,,,,0.05217254627516532,True
+prompt_026_seed00.wav,musicgen-medium,"pop, 158 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",158,,0.8540313019162389,,,,0.18963139006654384,True
+prompt_026_seed01.wav,musicgen-medium,"pop, 158 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",158,,0.8358505797063425,,,,0.05601466203556238,True
+prompt_026_seed02.wav,musicgen-medium,"pop, 158 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, reverb",158,,0.8114105875455464,,,,0.10016143896700058,True
+prompt_027_seed00.wav,musicgen-medium,"metal, 62 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",62,,1.0,,,,0.08791715389884092,True
+prompt_027_seed01.wav,musicgen-medium,"metal, 62 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",62,,0.9806476762579653,,,,0.1499245521324437,True
+prompt_027_seed02.wav,musicgen-medium,"metal, 62 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, distortion",62,,1.0,,,,0.035209253016796116,True
+prompt_028_seed00.wav,musicgen-medium,"drum and bass, 111 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",111,,0.7960234037308052,,,,0.03487353724931075,True
+prompt_028_seed01.wav,musicgen-medium,"drum and bass, 111 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",111,,0.9940588671506803,,,,0.05255521765137039,True
+prompt_028_seed02.wav,musicgen-medium,"drum and bass, 111 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, echo",111,,0.9999999999999996,,,,0.08450956847724367,True
+prompt_029_seed00.wav,musicgen-medium,"drum and bass, 200 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",200,,1.0,,,,0.027286413094511186,True
+prompt_029_seed01.wav,musicgen-medium,"drum and bass, 200 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",200,,1.0,,,,0.024384687018481954,True
+prompt_029_seed02.wav,musicgen-medium,"drum and bass, 200 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, phaser",200,,1.0,,,,0.21683101654607329,True
+prompt_030_seed00.wav,musicgen-medium,"folk, 191 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",191,,1.0,,,,0.1884589320140735,True
+prompt_030_seed01.wav,musicgen-medium,"folk, 191 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",191,,0.7412975958818213,,,,0.10172702310204507,True
+prompt_030_seed02.wav,musicgen-medium,"folk, 191 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",191,,0.8117773331465797,,,,0.07304824392333975,True
+prompt_031_seed00.wav,musicgen-medium,"funk, 67 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, chorus",67,,0.9836315173716447,,,,0.14637025882532828,True
+prompt_031_seed01.wav,musicgen-medium,"funk, 67 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, chorus",67,,0.9353063746604513,,,,0.2594767777531466,True
+prompt_031_seed02.wav,musicgen-medium,"funk, 67 BPM, instrumentation: violin, cello, piano, structure: intro-A-B-A, chorus",67,,0.798420487597862,,,,0.09769542204479809,True
+prompt_032_seed00.wav,musicgen-medium,"blues, 108 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, vinyl crackle",108,,1.0,,,,0.15838229091547462,True
+prompt_032_seed01.wav,musicgen-medium,"blues, 108 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, vinyl crackle",108,,1.0,,,,0.3008790682731519,True
+prompt_032_seed02.wav,musicgen-medium,"blues, 108 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, vinyl crackle",108,,1.0,,,,0.13947286534840742,True
+prompt_033_seed00.wav,musicgen-medium,"blues, 92 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",92,,0.9909565077446257,,,,0.32228602502931736,True
+prompt_033_seed01.wav,musicgen-medium,"blues, 92 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",92,,0.7689502236787252,,,,0.3072390053478249,True
+prompt_033_seed02.wav,musicgen-medium,"blues, 92 BPM, instrumentation: piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",92,,1.0,,,,0.1136566390716004,True
+prompt_034_seed00.wav,musicgen-medium,"jazz, 98 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",98,,0.8894689074604575,,,,0.14895075797905055,True
+prompt_034_seed01.wav,musicgen-medium,"jazz, 98 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",98,,0.7425399132706035,,,,0.14547377706576325,True
+prompt_034_seed02.wav,musicgen-medium,"jazz, 98 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",98,,0.899997891074409,,,,0.13070578661360333,True
+prompt_035_seed00.wav,musicgen-medium,"drum and bass, 177 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, echo",177,,0.8930918041424754,,,,0.07876814007082067,True
+prompt_035_seed01.wav,musicgen-medium,"drum and bass, 177 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, echo",177,,0.8784473873359724,,,,0.13798680299563693,True
+prompt_035_seed02.wav,musicgen-medium,"drum and bass, 177 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, echo",177,,0.7954939084255461,,,,0.15666206577708874,True
+prompt_036_seed00.wav,musicgen-medium,"drum and bass, 73 BPM, instrumentation: saxophone, piano, bass, drums, structure: AABA, 8 bars each, reverb",73,,1.0,,,,0.12787916237176633,True
+prompt_036_seed01.wav,musicgen-medium,"drum and bass, 73 BPM, instrumentation: saxophone, piano, bass, drums, structure: AABA, 8 bars each, reverb",73,,0.9742315676393202,,,,0.08792784665106479,True
+prompt_036_seed02.wav,musicgen-medium,"drum and bass, 73 BPM, instrumentation: saxophone, piano, bass, drums, structure: AABA, 8 bars each, reverb",73,,1.0,,,,0.20340157619558363,True
+prompt_037_seed00.wav,musicgen-medium,"funk, 80 BPM, instrumentation: saxophone, piano, bass, drums, structure: 32-bar standard form, chorus",80,,1.0,,,,0.1077939921092389,True
+prompt_037_seed01.wav,musicgen-medium,"funk, 80 BPM, instrumentation: saxophone, piano, bass, drums, structure: 32-bar standard form, chorus",80,,1.0,,,,0.07331378716052439,True
+prompt_037_seed02.wav,musicgen-medium,"funk, 80 BPM, instrumentation: saxophone, piano, bass, drums, structure: 32-bar standard form, chorus",80,,1.0,,,,0.0795315630798148,True
+prompt_038_seed00.wav,musicgen-medium,"rock, 67 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, tape saturation",67,,0.9794382418648069,,,,0.14752212016575694,True
+prompt_038_seed01.wav,musicgen-medium,"rock, 67 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, tape saturation",67,,1.0,,,,0.26054100432578753,True
+prompt_038_seed02.wav,musicgen-medium,"rock, 67 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, tape saturation",67,,1.0,,,,0.08408646141834608,True
+prompt_039_seed00.wav,musicgen-medium,"folk, 103 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, chorus",103,,1.0,,,,0.22753365490493593,True
+prompt_039_seed01.wav,musicgen-medium,"folk, 103 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, chorus",103,,1.0,,,,0.046589341431379494,True
+prompt_039_seed02.wav,musicgen-medium,"folk, 103 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, chorus",103,,1.0,,,,0.09381897201875922,True
+prompt_040_seed00.wav,musicgen-medium,"ambient, 74 BPM, instrumentation: acoustic guitar, vocals, structure: 32-bar standard form, distortion",74,,0.9722810574803896,,,,0.3563857058680502,True
+prompt_040_seed01.wav,musicgen-medium,"ambient, 74 BPM, instrumentation: acoustic guitar, vocals, structure: 32-bar standard form, distortion",74,,0.9916504573431093,,,,0.3604232587920977,True
+prompt_040_seed02.wav,musicgen-medium,"ambient, 74 BPM, instrumentation: acoustic guitar, vocals, structure: 32-bar standard form, distortion",74,,0.8827349423202222,,,,0.19653470021710784,True
+prompt_041_seed00.wav,musicgen-medium,"trap, 62 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",62,,0.8245956647314846,,,,0.1544367342020202,True
+prompt_041_seed01.wav,musicgen-medium,"trap, 62 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",62,,1.0,,,,0.2341308064298665,True
+prompt_041_seed02.wav,musicgen-medium,"trap, 62 BPM, instrumentation: guitar, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",62,,1.0,,,,0.13911727885420833,True
+prompt_042_seed00.wav,musicgen-medium,"blues, 176 BPM, instrumentation: strings, piano, structure: 32-bar standard form, chorus",176,,1.0,,,,0.09936102219432197,True
+prompt_042_seed01.wav,musicgen-medium,"blues, 176 BPM, instrumentation: strings, piano, structure: 32-bar standard form, chorus",176,,1.0,,,,0.16724524070831692,True
+prompt_042_seed02.wav,musicgen-medium,"blues, 176 BPM, instrumentation: strings, piano, structure: 32-bar standard form, chorus",176,,1.0,,,,0.15497451661747297,True
+prompt_043_seed00.wav,musicgen-medium,"soul, 72 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, bit-crush",72,,1.0,,,,0.10804779468349468,True
+prompt_043_seed01.wav,musicgen-medium,"soul, 72 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, bit-crush",72,,0.9064511433206721,,,,0.17280773636537128,True
+prompt_043_seed02.wav,musicgen-medium,"soul, 72 BPM, instrumentation: piano, bass, drums, structure: AABA, 8 bars each, bit-crush",72,,0.9827288177853667,,,,0.28172437853245347,True
+prompt_044_seed00.wav,musicgen-medium,"reggae, 174 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",174,,0.898320462943662,,,,0.12763354878213418,True
+prompt_044_seed01.wav,musicgen-medium,"reggae, 174 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",174,,0.9999999999999998,,,,0.2028610084859701,True
+prompt_044_seed02.wav,musicgen-medium,"reggae, 174 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",174,,0.9937219546082268,,,,0.3022173918484711,True
+prompt_045_seed00.wav,musicgen-medium,"folk, 70 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, vinyl crackle",70,,0.9758515434803975,,,,0.1004376694738287,True
+prompt_045_seed01.wav,musicgen-medium,"folk, 70 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, vinyl crackle",70,,0.9834368071651738,,,,0.19545640757830995,True
+prompt_045_seed02.wav,musicgen-medium,"folk, 70 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, vinyl crackle",70,,0.9753235568248624,,,,0.3121358391321911,True
+prompt_046_seed00.wav,musicgen-medium,"jazz, 91 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, chorus",91,,1.0,,,,0.08550724461153636,True
+prompt_046_seed01.wav,musicgen-medium,"jazz, 91 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, chorus",91,,1.0,,,,0.26116010955215174,True
+prompt_046_seed02.wav,musicgen-medium,"jazz, 91 BPM, instrumentation: piano, bass, drums, structure: intro-A-B-A, chorus",91,,0.743114219724028,,,,0.13692162493467042,True
+prompt_047_seed00.wav,musicgen-medium,"dubstep, 67 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, reverb",67,,0.8751051312534743,,,,0.31556877507439374,True
+prompt_047_seed01.wav,musicgen-medium,"dubstep, 67 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, reverb",67,,1.0,,,,0.2777189728036896,True
+prompt_047_seed02.wav,musicgen-medium,"dubstep, 67 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, reverb",67,,1.0,,,,0.3214782477552848,True
+prompt_048_seed00.wav,musicgen-medium,"soul, 79 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, distortion",79,,1.0,,,,0.16790458193584923,True
+prompt_048_seed01.wav,musicgen-medium,"soul, 79 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, distortion",79,,0.7628557358781173,,,,0.14601861635387337,True
+prompt_048_seed02.wav,musicgen-medium,"soul, 79 BPM, instrumentation: guitar, bass, drums, structure: intro-A-B-A, distortion",79,,1.0,,,,0.13082454628311302,True
+prompt_049_seed00.wav,musicgen-medium,"classical piano, 159 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, clean production",159,,0.8898693144315054,,,,0.27272886058188617,True
+prompt_049_seed01.wav,musicgen-medium,"classical piano, 159 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, clean production",159,,0.7981023909551489,,,,0.3652417103397161,True
+prompt_049_seed02.wav,musicgen-medium,"classical piano, 159 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, clean production",159,,0.7823924307463614,,,,0.3150674153772891,True
+prompt_050_seed00.wav,musicgen-medium,"reggae, 98 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",98,,0.7456183620003397,,,,0.14742084184404503,True
+prompt_050_seed01.wav,musicgen-medium,"reggae, 98 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",98,,1.0,,,,0.11412185439499078,True
+prompt_050_seed02.wav,musicgen-medium,"reggae, 98 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",98,,0.8293960188341168,,,,0.06160192015620147,True
+prompt_051_seed00.wav,musicgen-medium,"soul, 180 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, lo-fi texture",180,,0.753191463350365,,,,0.29101699261154357,True
+prompt_051_seed01.wav,musicgen-medium,"soul, 180 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, lo-fi texture",180,,0.7407367347340322,,,,0.23557857117911818,True
+prompt_051_seed02.wav,musicgen-medium,"soul, 180 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, lo-fi texture",180,,0.7377659402408391,,,,0.12753154664616861,True
+prompt_052_seed00.wav,musicgen-medium,"classical piano, 62 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, clean production",62,,0.8915150871179119,,,,0.336214791394019,True
+prompt_052_seed01.wav,musicgen-medium,"classical piano, 62 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, clean production",62,,0.9909518701959512,,,,0.2906144672097014,True
+prompt_052_seed02.wav,musicgen-medium,"classical piano, 62 BPM, instrumentation: piano, bass, drums, structure: 32-bar standard form, clean production",62,,0.7291609067629744,,,,0.30648417890130797,True
+prompt_053_seed00.wav,musicgen-medium,"trap, 119 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, lo-fi texture",119,,1.0,,,,0.17785377123799972,True
+prompt_053_seed01.wav,musicgen-medium,"trap, 119 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, lo-fi texture",119,,0.9046431216481475,,,,0.3696012495228953,True
+prompt_053_seed02.wav,musicgen-medium,"trap, 119 BPM, instrumentation: synthesizer, bass, drums, structure: intro-A-B-A, lo-fi texture",119,,1.0,,,,0.26433768730582696,True
+prompt_054_seed00.wav,musicgen-medium,"funk, 135 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, tape saturation",135,,1.0,,,,0.08474424517246504,True
+prompt_054_seed01.wav,musicgen-medium,"funk, 135 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, tape saturation",135,,1.0,,,,0.12467420312185873,True
+prompt_054_seed02.wav,musicgen-medium,"funk, 135 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, tape saturation",135,,1.0,,,,0.14511161679145912,True
+prompt_055_seed00.wav,musicgen-medium,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, phaser",77,,0.8431309851553316,,,,0.2108526688360125,True
+prompt_055_seed01.wav,musicgen-medium,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, phaser",77,,0.7808053690984642,,,,0.19165571075643795,True
+prompt_055_seed02.wav,musicgen-medium,"house, 77 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, phaser",77,,0.9999999999999998,,,,0.26210224023029083,True
+prompt_056_seed00.wav,musicgen-medium,"metal, 63 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",63,,1.0,,,,0.19805433506372883,True
+prompt_056_seed01.wav,musicgen-medium,"metal, 63 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",63,,0.9841678805242965,,,,0.21750081282813205,True
+prompt_056_seed02.wav,musicgen-medium,"metal, 63 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",63,,0.9798795247120534,,,,0.2841055233032712,True
+prompt_057_seed00.wav,musicgen-medium,"trap, 112 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",112,,0.9999999999999996,,,,0.1768198898342368,True
+prompt_057_seed01.wav,musicgen-medium,"trap, 112 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",112,,0.9999999999999996,,,,0.3245143693926058,True
+prompt_057_seed02.wav,musicgen-medium,"trap, 112 BPM, instrumentation: strings, piano, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",112,,0.9999999999999996,,,,0.18350366234974658,True
+prompt_058_seed00.wav,musicgen-medium,"pop, 178 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",178,,0.9203023817993207,,,,0.0578311134417373,True
+prompt_058_seed01.wav,musicgen-medium,"pop, 178 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",178,,1.0,,,,0.1270990241444957,True
+prompt_058_seed02.wav,musicgen-medium,"pop, 178 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, lo-fi texture",178,,0.8687876286944743,,,,0.06219871871768545,True
+prompt_059_seed00.wav,musicgen-medium,"jazz, 131 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, bit-crush",131,,1.0,,,,0.202238839418168,True
+prompt_059_seed01.wav,musicgen-medium,"jazz, 131 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, bit-crush",131,,1.0,,,,0.16842099700708268,True
+prompt_059_seed02.wav,musicgen-medium,"jazz, 131 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, bit-crush",131,,0.925317573326601,,,,0.23622732807690427,True
+prompt_060_seed00.wav,musicgen-medium,"lo-fi hip-hop, 113 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: AABA, 8 bars each, lo-fi texture",113,,0.7708313886954183,,,,0.2503050569952786,True
+prompt_060_seed01.wav,musicgen-medium,"lo-fi hip-hop, 113 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: AABA, 8 bars each, lo-fi texture",113,,0.9999999999999996,,,,0.12476684325130538,True
+prompt_060_seed02.wav,musicgen-medium,"lo-fi hip-hop, 113 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: AABA, 8 bars each, lo-fi texture",113,,0.9914748676660283,,,,0.30550299226938915,True
+prompt_061_seed00.wav,musicgen-medium,"house, 62 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",62,,0.9966063731658507,,,,0.10738456113851602,True
+prompt_061_seed01.wav,musicgen-medium,"house, 62 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",62,,1.0,,,,0.2913640005804208,True
+prompt_061_seed02.wav,musicgen-medium,"house, 62 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",62,,1.0,,,,0.19559264359961293,True
+prompt_062_seed00.wav,musicgen-medium,"electronic, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, clean production",103,,0.8864173813925303,,,,0.19020168398139203,True
+prompt_062_seed01.wav,musicgen-medium,"electronic, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, clean production",103,,1.0,,,,0.0961652888281439,True
+prompt_062_seed02.wav,musicgen-medium,"electronic, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, clean production",103,,1.0,,,,0.16720602768299186,True
+prompt_063_seed00.wav,musicgen-medium,"electronic, 71 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",71,,1.0,,,,0.2087994155175943,True
+prompt_063_seed01.wav,musicgen-medium,"electronic, 71 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",71,,0.8534303162740405,,,,0.12733580993757154,True
+prompt_063_seed02.wav,musicgen-medium,"electronic, 71 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",71,,1.0,,,,0.16908211064740197,True
+prompt_064_seed00.wav,musicgen-medium,"folk, 154 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, reverb",154,,0.9999999999999998,,,,0.07624655499145105,True
+prompt_064_seed01.wav,musicgen-medium,"folk, 154 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, reverb",154,,0.9999999999999998,,,,0.12494856302852009,True
+prompt_064_seed02.wav,musicgen-medium,"folk, 154 BPM, instrumentation: synthesizer, bass, drums, structure: 4-bar intro, 32-bar development, reverb",154,,0.9999999999999998,,,,0.11951870426199762,True
+prompt_065_seed00.wav,musicgen-medium,"trap, 117 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, echo",117,,1.0,,,,0.09080407059009621,True
+prompt_065_seed01.wav,musicgen-medium,"trap, 117 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, echo",117,,1.0,,,,0.14316849064712733,True
+prompt_065_seed02.wav,musicgen-medium,"trap, 117 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, echo",117,,1.0,,,,0.23828598235295007,True
+prompt_066_seed00.wav,musicgen-medium,"ambient, 113 BPM, instrumentation: strings, piano, structure: 32-bar standard form, vinyl crackle",113,,0.827606568094081,,,,0.40694697644325106,True
+prompt_066_seed01.wav,musicgen-medium,"ambient, 113 BPM, instrumentation: strings, piano, structure: 32-bar standard form, vinyl crackle",113,,0.9754814235382965,,,,0.2701855882401596,True
+prompt_066_seed02.wav,musicgen-medium,"ambient, 113 BPM, instrumentation: strings, piano, structure: 32-bar standard form, vinyl crackle",113,,0.9999999999999996,,,,0.36509587761201023,True
+prompt_067_seed00.wav,musicgen-medium,"pop, 135 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, distortion",135,,1.0,,,,0.07572679576114294,True
+prompt_067_seed01.wav,musicgen-medium,"pop, 135 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, distortion",135,,1.0,,,,0.10371462937394504,True
+prompt_067_seed02.wav,musicgen-medium,"pop, 135 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, distortion",135,,1.0,,,,0.12078672477328756,True
+prompt_068_seed00.wav,musicgen-medium,"rock, 96 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, chorus",96,,1.0,,,,0.12788063683580786,True
+prompt_068_seed01.wav,musicgen-medium,"rock, 96 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, chorus",96,,1.0,,,,0.1382296593342912,True
+prompt_068_seed02.wav,musicgen-medium,"rock, 96 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, chorus",96,,1.0,,,,0.05708497244370114,True
+prompt_069_seed00.wav,musicgen-medium,"house, 90 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",90,,0.7287772076352282,,,,0.11922898188682485,True
+prompt_069_seed01.wav,musicgen-medium,"house, 90 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",90,,0.7912869292217434,,,,0.309881999280911,True
+prompt_069_seed02.wav,musicgen-medium,"house, 90 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",90,,0.7434572428437702,,,,0.1546403617285943,True
+prompt_070_seed00.wav,musicgen-medium,"folk, 68 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",68,,0.8283830609918852,,,,0.21485770283648153,True
+prompt_070_seed01.wav,musicgen-medium,"folk, 68 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",68,,0.7559660291044621,,,,0.2215076049177238,True
+prompt_070_seed02.wav,musicgen-medium,"folk, 68 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",68,,1.0,,,,0.2552103210354484,True
+prompt_071_seed00.wav,musicgen-medium,"funk, 160 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, phaser",160,,1.0,,,,0.06492975181126148,True
+prompt_071_seed01.wav,musicgen-medium,"funk, 160 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, phaser",160,,0.7439043506490599,,,,0.06669376840442387,True
+prompt_071_seed02.wav,musicgen-medium,"funk, 160 BPM, instrumentation: saxophone, piano, bass, drums, structure: 4-bar intro, 32-bar development, phaser",160,,0.7516537463116874,,,,0.06570162509890665,True
+prompt_072_seed00.wav,musicgen-medium,"lo-fi hip-hop, 131 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, echo",131,,0.9907509658811591,,,,0.2490202712980697,True
+prompt_072_seed01.wav,musicgen-medium,"lo-fi hip-hop, 131 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, echo",131,,0.798563668399322,,,,0.20153476213082988,True
+prompt_072_seed02.wav,musicgen-medium,"lo-fi hip-hop, 131 BPM, instrumentation: guitar, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, echo",131,,0.9901446712449185,,,,0.17850801206257938,True
+prompt_073_seed00.wav,musicgen-medium,"rock, 189 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",189,,0.8106060256598145,,,,0.1642133550081989,True
+prompt_073_seed01.wav,musicgen-medium,"rock, 189 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",189,,1.0,,,,0.26139873115773427,True
+prompt_073_seed02.wav,musicgen-medium,"rock, 189 BPM, instrumentation: saxophone, piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, tape saturation",189,,0.9286087103960552,,,,0.12080896757757509,True
+prompt_074_seed00.wav,musicgen-medium,"dubstep, 98 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, clean production",98,,1.0,,,,0.25763513023402174,True
+prompt_074_seed01.wav,musicgen-medium,"dubstep, 98 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, clean production",98,,0.9831265663622157,,,,0.3030302355381207,True
+prompt_074_seed02.wav,musicgen-medium,"dubstep, 98 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, clean production",98,,1.0,,,,0.08897473319291427,True
+prompt_075_seed00.wav,musicgen-medium,"jazz, 101 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",101,,0.9291816851223222,,,,0.2597775425315091,True
+prompt_075_seed01.wav,musicgen-medium,"jazz, 101 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",101,,0.8810048172391998,,,,0.22682384557827473,True
+prompt_075_seed02.wav,musicgen-medium,"jazz, 101 BPM, instrumentation: saxophone, piano, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",101,,0.7989862832052451,,,,0.27027003082276335,True
+prompt_076_seed00.wav,musicgen-medium,"techno, 151 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",151,,1.0,,,,0.14338117858851918,True
+prompt_076_seed01.wav,musicgen-medium,"techno, 151 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",151,,0.9999999999999998,,,,0.05778611121446153,True
+prompt_076_seed02.wav,musicgen-medium,"techno, 151 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, tape saturation",151,,0.9999999999999998,,,,0.07972726197430313,True
+prompt_077_seed00.wav,musicgen-medium,"rock, 180 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, lo-fi texture",180,,1.0,,,,0.09182357174851274,True
+prompt_077_seed01.wav,musicgen-medium,"rock, 180 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, lo-fi texture",180,,0.806591675781074,,,,0.27629253695760936,True
+prompt_077_seed02.wav,musicgen-medium,"rock, 180 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, lo-fi texture",180,,0.9831302648208429,,,,0.25838850600680274,True
+prompt_078_seed00.wav,musicgen-medium,"soul, 103 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, echo",103,,0.9290017171932045,,,,0.29824834940701817,True
+prompt_078_seed01.wav,musicgen-medium,"soul, 103 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, echo",103,,1.0,,,,0.29052775214268467,True
+prompt_078_seed02.wav,musicgen-medium,"soul, 103 BPM, instrumentation: acoustic guitar, vocals, structure: intro-A-B-A, echo",103,,0.9158136127615392,,,,0.26335613810134084,True
+prompt_079_seed00.wav,musicgen-medium,"soul, 142 BPM, instrumentation: strings, piano, structure: intro-A-B-A, clean production",142,,0.9421878542652931,,,,0.31319680612916345,True
+prompt_079_seed01.wav,musicgen-medium,"soul, 142 BPM, instrumentation: strings, piano, structure: intro-A-B-A, clean production",142,,1.0,,,,0.2049547804158981,True
+prompt_079_seed02.wav,musicgen-medium,"soul, 142 BPM, instrumentation: strings, piano, structure: intro-A-B-A, clean production",142,,0.8927172628081215,,,,0.3290511051691496,True
+prompt_080_seed00.wav,musicgen-medium,"trap, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",103,,1.0,,,,0.08559875136459849,True
+prompt_080_seed01.wav,musicgen-medium,"trap, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",103,,1.0,,,,0.08713749137438975,True
+prompt_080_seed02.wav,musicgen-medium,"trap, 103 BPM, instrumentation: piano, bass, drums, structure: verse-chorus-verse-chorus-bridge-chorus, lo-fi texture",103,,1.0,,,,0.18841728449035655,True
+prompt_081_seed00.wav,musicgen-medium,"pop, 106 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, chorus",106,,0.9861449075882056,,,,0.10320068598482424,True
+prompt_081_seed01.wav,musicgen-medium,"pop, 106 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, chorus",106,,1.0,,,,0.19880899377188865,True
+prompt_081_seed02.wav,musicgen-medium,"pop, 106 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, chorus",106,,1.0,,,,0.101800945567049,True
+prompt_082_seed00.wav,musicgen-medium,"drum and bass, 146 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, reverb",146,,1.0,,,,0.08300730524736233,True
+prompt_082_seed01.wav,musicgen-medium,"drum and bass, 146 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, reverb",146,,1.0,,,,0.13210374519772283,True
+prompt_082_seed02.wav,musicgen-medium,"drum and bass, 146 BPM, instrumentation: strings, piano, structure: 4-bar intro, 32-bar development, reverb",146,,1.0,,,,0.0924208031205852,True
+prompt_083_seed00.wav,musicgen-medium,"pop, 115 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",115,,0.9784030994642248,,,,0.127358866892479,True
+prompt_083_seed01.wav,musicgen-medium,"pop, 115 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",115,,0.9925924134406522,,,,0.13964601397737986,True
+prompt_083_seed02.wav,musicgen-medium,"pop, 115 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, lo-fi texture",115,,0.8754780016268568,,,,0.13373919976694415,True
+prompt_084_seed00.wav,musicgen-medium,"folk, 105 BPM, instrumentation: strings, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",105,,1.0,,,,0.2795706710022421,True
+prompt_084_seed01.wav,musicgen-medium,"folk, 105 BPM, instrumentation: strings, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",105,,0.997994884072573,,,,0.23145808669108736,True
+prompt_084_seed02.wav,musicgen-medium,"folk, 105 BPM, instrumentation: strings, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, vinyl crackle",105,,1.0,,,,0.1237308352093549,True
+prompt_085_seed00.wav,musicgen-medium,"classical piano, 112 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, clean production",112,,0.9999999999999996,,,,0.3679444324407539,True
+prompt_085_seed01.wav,musicgen-medium,"classical piano, 112 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, clean production",112,,0.9999999999999996,,,,0.43918563126083066,True
+prompt_085_seed02.wav,musicgen-medium,"classical piano, 112 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, clean production",112,,0.9801638756232709,,,,0.3894380774066801,True
+prompt_086_seed00.wav,musicgen-medium,"soul, 110 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, distortion",110,,0.9298256998597934,,,,0.34650610317192065,True
+prompt_086_seed01.wav,musicgen-medium,"soul, 110 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, distortion",110,,1.0,,,,0.3056826134424008,True
+prompt_086_seed02.wav,musicgen-medium,"soul, 110 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, distortion",110,,0.9999999999999996,,,,0.39194939514091365,True
+prompt_087_seed00.wav,musicgen-medium,"lo-fi hip-hop, 115 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, distortion",115,,0.8882477641715016,,,,0.1502210324567549,True
+prompt_087_seed01.wav,musicgen-medium,"lo-fi hip-hop, 115 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, distortion",115,,0.9805272658655304,,,,0.04719275378763821,True
+prompt_087_seed02.wav,musicgen-medium,"lo-fi hip-hop, 115 BPM, instrumentation: guitar, bass, drums, structure: 32-bar standard form, distortion",115,,0.8398198742641002,,,,0.13123278218291112,True
+prompt_088_seed00.wav,musicgen-medium,"dubstep, 119 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",119,,1.0,,,,0.21392601286096802,True
+prompt_088_seed01.wav,musicgen-medium,"dubstep, 119 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",119,,1.0,,,,0.20307995062581385,True
+prompt_088_seed02.wav,musicgen-medium,"dubstep, 119 BPM, instrumentation: violin, cello, piano, structure: 8-bar intro, 16-bar verse, 16-bar chorus, phaser",119,,1.0,,,,0.14039190118189881,True
+prompt_089_seed00.wav,musicgen-medium,"rock, 160 BPM, instrumentation: violin, cello, piano, structure: AABA, 8 bars each, chorus",160,,1.0,,,,0.27303509533570713,True
+prompt_089_seed01.wav,musicgen-medium,"rock, 160 BPM, instrumentation: violin, cello, piano, structure: AABA, 8 bars each, chorus",160,,0.9960078706234733,,,,0.13491729844484657,True
+prompt_089_seed02.wav,musicgen-medium,"rock, 160 BPM, instrumentation: violin, cello, piano, structure: AABA, 8 bars each, chorus",160,,0.9087266587872895,,,,0.33753008792765105,True
+prompt_090_seed00.wav,musicgen-medium,"house, 113 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, chorus",113,,0.9999999999999996,,,,0.03165387294213273,True
+prompt_090_seed01.wav,musicgen-medium,"house, 113 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, chorus",113,,0.9999999999999996,,,,0.09450566564312723,True
+prompt_090_seed02.wav,musicgen-medium,"house, 113 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, chorus",113,,0.9999999999999996,,,,0.06169417293705426,True
+prompt_091_seed00.wav,musicgen-medium,"drum and bass, 154 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",154,,0.9999999999999998,,,,0.15294037046010778,True
+prompt_091_seed01.wav,musicgen-medium,"drum and bass, 154 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",154,,0.8522057106666586,,,,0.2446551795538937,True
+prompt_091_seed02.wav,musicgen-medium,"drum and bass, 154 BPM, instrumentation: violin, cello, piano, structure: verse-chorus-verse-chorus-bridge-chorus, distortion",154,,0.9999999999999998,,,,0.20773717163671346,True
+prompt_092_seed00.wav,musicgen-medium,"dubstep, 144 BPM, instrumentation: violin, cello, piano, structure: 4-bar intro, 32-bar development, distortion",144,,1.0,,,,0.33731638859121904,True
+prompt_092_seed01.wav,musicgen-medium,"dubstep, 144 BPM, instrumentation: violin, cello, piano, structure: 4-bar intro, 32-bar development, distortion",144,,1.0,,,,0.18016503635848047,True
+prompt_092_seed02.wav,musicgen-medium,"dubstep, 144 BPM, instrumentation: violin, cello, piano, structure: 4-bar intro, 32-bar development, distortion",144,,1.0,,,,0.19456216807011784,True
+prompt_093_seed00.wav,musicgen-medium,"classical piano, 140 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, lo-fi texture",140,,0.8946718992034138,,,,0.2517534597027482,True
+prompt_093_seed01.wav,musicgen-medium,"classical piano, 140 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, lo-fi texture",140,,1.0,,,,0.17355228515287113,True
+prompt_093_seed02.wav,musicgen-medium,"classical piano, 140 BPM, instrumentation: acoustic guitar, vocals, structure: AABA, 8 bars each, lo-fi texture",140,,0.8271369674434497,,,,0.0846280238337156,True
+prompt_094_seed00.wav,musicgen-medium,"trap, 102 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, echo",102,,0.8790221935884678,,,,0.13485429375572333,True
+prompt_094_seed01.wav,musicgen-medium,"trap, 102 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, echo",102,,0.8845254972054098,,,,0.09028314900872447,True
+prompt_094_seed02.wav,musicgen-medium,"trap, 102 BPM, instrumentation: guitar, bass, drums, structure: AABA, 8 bars each, echo",102,,0.9040848135909693,,,,0.21854990433006583,True
+prompt_095_seed00.wav,musicgen-medium,"electronic, 180 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, bit-crush",180,,1.0,,,,0.04487834016442416,True
+prompt_095_seed01.wav,musicgen-medium,"electronic, 180 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, bit-crush",180,,0.9393623184994123,,,,0.06626569501341983,True
+prompt_095_seed02.wav,musicgen-medium,"electronic, 180 BPM, instrumentation: synthesizer, bass, drums, structure: 8-bar intro, 16-bar verse, 16-bar chorus, bit-crush",180,,0.8806992415915395,,,,0.025281217445574322,True
+prompt_096_seed00.wav,musicgen-medium,"trap, 116 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, vinyl crackle",116,,0.9792956624061514,,,,0.0863789137663078,True
+prompt_096_seed01.wav,musicgen-medium,"trap, 116 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, vinyl crackle",116,,0.9876067979594539,,,,0.10077885161410349,True
+prompt_096_seed02.wav,musicgen-medium,"trap, 116 BPM, instrumentation: violin, cello, piano, structure: 32-bar standard form, vinyl crackle",116,,0.987055622996098,,,,0.10248559562594206,True
+prompt_097_seed00.wav,musicgen-medium,"techno, 185 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",185,,1.0,,,,0.16809501785855585,True
+prompt_097_seed01.wav,musicgen-medium,"techno, 185 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",185,,0.7623056552208665,,,,0.06787779357706336,True
+prompt_097_seed02.wav,musicgen-medium,"techno, 185 BPM, instrumentation: saxophone, piano, bass, drums, structure: intro-A-B-A, vinyl crackle",185,,1.0,,,,0.14731813743288136,True
+prompt_098_seed00.wav,musicgen-medium,"lo-fi hip-hop, 187 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",187,,0.8323394810072057,,,,0.17799136673999305,True
+prompt_098_seed01.wav,musicgen-medium,"lo-fi hip-hop, 187 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",187,,0.8492673725453541,,,,0.17201522190652407,True
+prompt_098_seed02.wav,musicgen-medium,"lo-fi hip-hop, 187 BPM, instrumentation: electric guitar, bass, drums, keyboard, structure: verse-chorus-verse-chorus-bridge-chorus, bit-crush",187,,0.7924311820352681,,,,0.07512460208240468,True
+prompt_099_seed00.wav,musicgen-medium,"trap, 143 BPM, instrumentation: synthesizer, bass, drums, structure: 32-bar standard form, distortion",143,,1.0,,,,0.10784521682353287,True
+prompt_099_seed01.wav,musicgen-medium,"trap, 143 BPM, instrumentation: synthesizer, bass, drums, structure: 32-bar standard form, distortion",143,,1.0,,,,0.3716089704699356,True
+prompt_099_seed02.wav,musicgen-medium,"trap, 143 BPM, instrumentation: synthesizer, bass, drums, structure: 32-bar standard form, distortion",143,,1.0,,,,0.13025795291449516,True

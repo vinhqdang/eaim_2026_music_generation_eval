@@ -1,0 +1,9 @@
+{
+  "model": "musicgen-large",
+  "prompt_id": "prompt_001",
+  "prompt": "electronic, 78 BPM, instrumentation: guitar, bass, drums, structure: 4-bar intro, 32-bar development, phaser",
+  "seed": 0,
+  "genre": "electronic",
+  "bpm": 78,
+  "device": "cuda"
+}
